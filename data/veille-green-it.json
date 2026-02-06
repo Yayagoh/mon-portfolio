@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "L'impact environnemental de l'IA Générative : Vers une IA plus frugale ?",
+    "date": "2024-11-15",
+    "source": "GreenIT.fr / Le Monde Informatique",
+    "category": "Software / IA",
+    "summary": "L'explosion de l'usage des IA comme ChatGPT a fait bondir la consommation d'eau et d'électricité des datacenters. L'article évoque le concept d'IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.",
+    "analysis": "Pour un technicien SIO, cela signifie qu'il ne faut pas intégrer de l'IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C'est un enjeu d'architecture logicielle futur."
+  },
+  {
+    "id": 2,
+    "title": "De l'indice de réparabilité à l'indice de durabilité",
+    "date": "2024-05-20",
+    "source": "Service-Public.fr / ADEME",
+    "category": "Matériel / Législation",
+    "summary": "Depuis 2024, l'indice de durabilité remplace progressivement l'indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.",
+    "analysis": "En tant que futur administrateur réseau (ou dév), cela impacte les choix d'achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l'empreinte carbone de l'entreprise."
+  },
+  {
+    "id": 3,
+    "title": "Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines",
+    "date": "2024-09-10",
+    "source": "ZDNet France",
+    "category": "Infrastructure / Datacenter",
+    "summary": "Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d'Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.",
+    "analysis": "Cela montre que l'optimisation n'est pas que logicielle. L'implantation physique des salles serveurs devient stratégique. C'est un bel exemple d'économie circulaire appliqué à l'IT."
+  }
+]
+

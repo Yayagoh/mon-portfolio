@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Green IT | Mon Portfolio</title>
+<meta name="keywords" content="">
+<meta name="description" content="Ma Veille Technologique - Green IT
+
+
+
+      
+        
+          💻
+        
+        
+          L&#39;impact environnemental de l&#39;IA Générative : Vers une IA plus frugale ?
+          
+            
+              
+                
+                
+              
+              15 janvier 2024
+            
+            
+              
+                
+                
+              
+              GreenIT.fr / Le Monde Informatique
+            
+          
+          
+            💻
+            Software / IA
+          
+        
+      
+      
+        Résumé : L&#39;explosion de l&#39;usage des IA comme ChatGPT a fait bondir la consommation d&#39;eau et d&#39;électricité des datacenters. L&#39;article évoque le concept d&#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.
+      
+      
+        
+          
+            
+            
+          
+          Mon Analyse
+        
+        
+          Pour un technicien SIO, cela signifie qu&#39;il ne faut pas intégrer de l&#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C&#39;est un enjeu d&#39;architecture logicielle futur.
+        
+      
+    
+      
+        
+          📱
+        
+        
+          De l&#39;indice de réparabilité à l&#39;indice de durabilité
+          
+            
+              
+                
+                
+              
+              20 janvier 2024
+            
+            
+              
+                
+                
+              
+              Service-Public.fr / ADEME
+            
+          
+          
+            📱
+            Matériel / Législation
+          
+        
+      
+      
+        Résumé : Depuis 2024, l&#39;indice de durabilité remplace progressivement l&#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.
+      
+      
+        
+          
+            
+            
+          
+          Mon Analyse
+        
+        
+          En tant que futur administrateur réseau (ou dév), cela impacte les choix d&#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l&#39;empreinte carbone de l&#39;entreprise.
+        
+      
+    
+      
+        
+          🏢
+        
+        
+          Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines
+          
+            
+              
+                
+                
+              
+              10 janvier 2024
+            
+            
+              
+                
+                
+              
+              ZDNet France
+            
+          
+          
+            🏢
+            Infrastructure / Datacenter
+          
+        
+      
+      
+        Résumé : Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d&#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.
+      
+      
+        
+          
+            
+            
+          
+          Mon Analyse
+        
+        
+          Cela montre que l&#39;optimisation n&#39;est pas que logicielle. L&#39;implantation physique des salles serveurs devient stratégique. C&#39;est un bel exemple d&#39;économie circulaire appliqué à l&#39;IT.
+        
+      
+    ">
+<meta name="author" content="">
+<link rel="canonical" href="http://192.168.1.31/veille/green-it/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d7b009dceea5b957097a587a699e57c016f13f4c46415c0647f82a3a74ea7076.css" integrity="sha256-17AJ3O6luVcJelh6aZ5XwBbxP0xGQVwGR/gqOnTqcHY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://192.168.1.31/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://192.168.1.31/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://192.168.1.31/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://192.168.1.31/apple-touch-icon.png">
+<link rel="mask-icon" href="http://192.168.1.31/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://192.168.1.31/veille/green-it/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://192.168.1.31/veille/green-it/">
+  <meta property="og:site_name" content="Mon Portfolio">
+  <meta property="og:title" content="Green IT">
+  <meta property="og:description" content="Ma Veille Technologique - Green IT 💻L&#39;impact environnemental de l&#39;IA Générative : Vers une IA plus frugale ?15 janvier 2024GreenIT.fr / Le Monde Informatique💻Software / IARésumé : L&#39;explosion de l&#39;usage des IA comme ChatGPT a fait bondir la consommation d&#39;eau et d&#39;électricité des datacenters. L&#39;article évoque le concept d&#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.Mon AnalysePour un technicien SIO, cela signifie qu&#39;il ne faut pas intégrer de l&#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C&#39;est un enjeu d&#39;architecture logicielle futur.📱De l&#39;indice de réparabilité à l&#39;indice de durabilité20 janvier 2024Service-Public.fr / ADEME📱Matériel / LégislationRésumé : Depuis 2024, l&#39;indice de durabilité remplace progressivement l&#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.Mon AnalyseEn tant que futur administrateur réseau (ou dév), cela impacte les choix d&#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l&#39;empreinte carbone de l&#39;entreprise.🏢Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines10 janvier 2024ZDNet France🏢Infrastructure / DatacenterRésumé : Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d&#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.Mon AnalyseCela montre que l&#39;optimisation n&#39;est pas que logicielle. L&#39;implantation physique des salles serveurs devient stratégique. C&#39;est un bel exemple d&#39;économie circulaire appliqué à l&#39;IT.">
+  <meta property="og:locale" content="fr-fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="veille">
+    <meta property="article:published_time" content="2025-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-01T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Green IT">
+<meta name="twitter:description" content="Ma Veille Technologique - Green IT
+
+
+
+      
+        
+          💻
+        
+        
+          L&#39;impact environnemental de l&#39;IA Générative : Vers une IA plus frugale ?
+          
+            
+              
+                
+                
+              
+              15 janvier 2024
+            
+            
+              
+                
+                
+              
+              GreenIT.fr / Le Monde Informatique
+            
+          
+          
+            💻
+            Software / IA
+          
+        
+      
+      
+        Résumé : L&#39;explosion de l&#39;usage des IA comme ChatGPT a fait bondir la consommation d&#39;eau et d&#39;électricité des datacenters. L&#39;article évoque le concept d&#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.
+      
+      
+        
+          
+            
+            
+          
+          Mon Analyse
+        
+        
+          Pour un technicien SIO, cela signifie qu&#39;il ne faut pas intégrer de l&#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C&#39;est un enjeu d&#39;architecture logicielle futur.
+        
+      
+    
+      
+        
+          📱
+        
+        
+          De l&#39;indice de réparabilité à l&#39;indice de durabilité
+          
+            
+              
+                
+                
+              
+              20 janvier 2024
+            
+            
+              
+                
+                
+              
+              Service-Public.fr / ADEME
+            
+          
+          
+            📱
+            Matériel / Législation
+          
+        
+      
+      
+        Résumé : Depuis 2024, l&#39;indice de durabilité remplace progressivement l&#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.
+      
+      
+        
+          
+            
+            
+          
+          Mon Analyse
+        
+        
+          En tant que futur administrateur réseau (ou dév), cela impacte les choix d&#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l&#39;empreinte carbone de l&#39;entreprise.
+        
+      
+    
+      
+        
+          🏢
+        
+        
+          Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines
+          
+            
+              
+                
+                
+              
+              10 janvier 2024
+            
+            
+              
+                
+                
+              
+              ZDNet France
+            
+          
+          
+            🏢
+            Infrastructure / Datacenter
+          
+        
+      
+      
+        Résumé : Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d&#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.
+      
+      
+        
+          
+            
+            
+          
+          Mon Analyse
+        
+        
+          Cela montre que l&#39;optimisation n&#39;est pas que logicielle. L&#39;implantation physique des salles serveurs devient stratégique. C&#39;est un bel exemple d&#39;économie circulaire appliqué à l&#39;IT.
+        
+      
+    ">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Veilles",
+      "item": "http://192.168.1.31/veille/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Green IT",
+      "item": "http://192.168.1.31/veille/green-it/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Green IT",
+  "name": "Green IT",
+  "description": "Ma Veille Technologique - Green IT 💻\rL\u0026#39;impact environnemental de l\u0026#39;IA Générative : Vers une IA plus frugale ?\r15 janvier 2024\rGreenIT.fr / Le Monde Informatique\r💻\rSoftware / IA\rRésumé : L\u0026#39;explosion de l\u0026#39;usage des IA comme ChatGPT a fait bondir la consommation d\u0026#39;eau et d\u0026#39;électricité des datacenters. L\u0026#39;article évoque le concept d\u0026#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.\rMon Analyse\rPour un technicien SIO, cela signifie qu\u0026#39;il ne faut pas intégrer de l\u0026#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C\u0026#39;est un enjeu d\u0026#39;architecture logicielle futur.\r📱\rDe l\u0026#39;indice de réparabilité à l\u0026#39;indice de durabilité\r20 janvier 2024\rService-Public.fr / ADEME\r📱\rMatériel / Législation\rRésumé : Depuis 2024, l\u0026#39;indice de durabilité remplace progressivement l\u0026#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.\rMon Analyse\rEn tant que futur administrateur réseau (ou dév), cela impacte les choix d\u0026#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l\u0026#39;empreinte carbone de l\u0026#39;entreprise.\r🏢\rRécupération de la chaleur fatale : Quand les serveurs chauffent les piscines\r10 janvier 2024\rZDNet France\r🏢\rInfrastructure / Datacenter\rRésumé : Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d\u0026#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.\rMon Analyse\rCela montre que l\u0026#39;optimisation n\u0026#39;est pas que logicielle. L\u0026#39;implantation physique des salles serveurs devient stratégique. C\u0026#39;est un bel exemple d\u0026#39;économie circulaire appliqué à l\u0026#39;IT.\r",
+  "keywords": [
+    
+  ],
+  "articleBody": "Ma Veille Technologique - Green IT 💻\rL'impact environnemental de l'IA Générative : Vers une IA plus frugale ?\r15 janvier 2024\rGreenIT.fr / Le Monde Informatique\r💻\rSoftware / IA\rRésumé : L'explosion de l'usage des IA comme ChatGPT a fait bondir la consommation d'eau et d'électricité des datacenters. L'article évoque le concept d'IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.\rMon Analyse\rPour un technicien SIO, cela signifie qu'il ne faut pas intégrer de l'IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C'est un enjeu d'architecture logicielle futur.\r📱\rDe l'indice de réparabilité à l'indice de durabilité\r20 janvier 2024\rService-Public.fr / ADEME\r📱\rMatériel / Législation\rRésumé : Depuis 2024, l'indice de durabilité remplace progressivement l'indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.\rMon Analyse\rEn tant que futur administrateur réseau (ou dév), cela impacte les choix d'achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l'empreinte carbone de l'entreprise.\r🏢\rRécupération de la chaleur fatale : Quand les serveurs chauffent les piscines\r10 janvier 2024\rZDNet France\r🏢\rInfrastructure / Datacenter\rRésumé : Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d'Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.\rMon Analyse\rCela montre que l'optimisation n'est pas que logicielle. L'implantation physique des salles serveurs devient stratégique. C'est un bel exemple d'économie circulaire appliqué à l'IT.\r",
+  "wordCount" : "292",
+  "inLanguage": "en",
+  "datePublished": "2025-01-01T00:00:00Z",
+  "dateModified": "2025-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://192.168.1.31/veille/green-it/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mon Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://192.168.1.31/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://192.168.1.31/" accesskey="h" title="Mon Portfolio (Alt + H)">Mon Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://192.168.1.31/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://192.168.1.31/categories/" title="Catégories">
+                    <span>Catégories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://192.168.1.31/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Green IT
+    </h1>
+    <div class="post-meta"><span title='2025-01-01 00:00:00 +0000 UTC'>January 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="ma-veille-technologique---green-it">Ma Veille Technologique - Green IT<a hidden class="anchor" aria-hidden="true" href="#ma-veille-technologique---green-it">#</a></h2>
+<style>
+.veille-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.veille-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.veille-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  border-color: var(--primary);
+}
+
+.veille-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.veille-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.veille-card-icon.software {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.veille-card-icon.materiel {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.veille-card-icon.infrastructure {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.veille-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--primary);
+  line-height: 1.3;
+  flex: 1;
+}
+
+.veille-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--secondary);
+}
+
+.veille-card-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.veille-card-category {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background: var(--tertiary);
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.veille-card-summary {
+  margin-bottom: 1.25rem;
+  color: var(--content);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.veille-card-analysis {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+.veille-card-analysis-title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.veille-card-analysis-content {
+  color: var(--content);
+  line-height: 1.6;
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 768px) {
+  .veille-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+</style>
+
+<div class="veille-cards"><article class="veille-card">
+      <div class="veille-card-header">
+        <div class="veille-card-icon software">
+          💻
+        </div>
+        <div style="flex: 1;">
+          <h3 class="veille-card-title">L&#39;impact environnemental de l&#39;IA Générative : Vers une IA plus frugale ?</h3>
+          <div class="veille-card-meta">
+            <span class="veille-card-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              15 janvier 2024
+            </span>
+            <span class="veille-card-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              GreenIT.fr / Le Monde Informatique
+            </span>
+          </div>
+          <span class="veille-card-category">
+            💻
+            Software / IA
+          </span>
+        </div>
+      </div>
+      <div class="veille-card-summary">
+        <strong>Résumé :</strong> L&#39;explosion de l&#39;usage des IA comme ChatGPT a fait bondir la consommation d&#39;eau et d&#39;électricité des datacenters. L&#39;article évoque le concept d&#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.
+      </div>
+      <div class="veille-card-analysis">
+        <div class="veille-card-analysis-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 11l3 3L22 4"></path>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+          </svg>
+          Mon Analyse
+        </div>
+        <div class="veille-card-analysis-content">
+          Pour un technicien SIO, cela signifie qu&#39;il ne faut pas intégrer de l&#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C&#39;est un enjeu d&#39;architecture logicielle futur.
+        </div>
+      </div>
+    </article><article class="veille-card">
+      <div class="veille-card-header">
+        <div class="veille-card-icon materiel">
+          📱
+        </div>
+        <div style="flex: 1;">
+          <h3 class="veille-card-title">De l&#39;indice de réparabilité à l&#39;indice de durabilité</h3>
+          <div class="veille-card-meta">
+            <span class="veille-card-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              20 janvier 2024
+            </span>
+            <span class="veille-card-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              Service-Public.fr / ADEME
+            </span>
+          </div>
+          <span class="veille-card-category">
+            📱
+            Matériel / Législation
+          </span>
+        </div>
+      </div>
+      <div class="veille-card-summary">
+        <strong>Résumé :</strong> Depuis 2024, l&#39;indice de durabilité remplace progressivement l&#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.
+      </div>
+      <div class="veille-card-analysis">
+        <div class="veille-card-analysis-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 11l3 3L22 4"></path>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+          </svg>
+          Mon Analyse
+        </div>
+        <div class="veille-card-analysis-content">
+          En tant que futur administrateur réseau (ou dév), cela impacte les choix d&#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l&#39;empreinte carbone de l&#39;entreprise.
+        </div>
+      </div>
+    </article><article class="veille-card">
+      <div class="veille-card-header">
+        <div class="veille-card-icon infrastructure">
+          🏢
+        </div>
+        <div style="flex: 1;">
+          <h3 class="veille-card-title">Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines</h3>
+          <div class="veille-card-meta">
+            <span class="veille-card-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              10 janvier 2024
+            </span>
+            <span class="veille-card-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              ZDNet France
+            </span>
+          </div>
+          <span class="veille-card-category">
+            🏢
+            Infrastructure / Datacenter
+          </span>
+        </div>
+      </div>
+      <div class="veille-card-summary">
+        <strong>Résumé :</strong> Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d&#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.
+      </div>
+      <div class="veille-card-analysis">
+        <div class="veille-card-analysis-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 11l3 3L22 4"></path>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+          </svg>
+          Mon Analyse
+        </div>
+        <div class="veille-card-analysis-content">
+          Cela montre que l&#39;optimisation n&#39;est pas que logicielle. L&#39;implantation physique des salles serveurs devient stratégique. C&#39;est un bel exemple d&#39;économie circulaire appliqué à l&#39;IT.
+        </div>
+      </div>
+    </article></div>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://192.168.1.31/">Mon Portfolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

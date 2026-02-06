@@ -1,0 +1,44 @@
+baseURL = "http://192.168.1.31/"
+languageCode = "fr-fr"
+title = "Mon Portfolio"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowReadingTime = true
+
+[params.profileMode]
+  enabled = true
+  title = "SALAUN Charles"
+  subtitle = "Étudiant en BTS SIO chez ScholaNova"
+
+[[params.profileMode.buttons]]
+  name = "Mon CV"
+  url = "/cv"
+
+[[params.profileMode.buttons]]
+  name = "Mes Projets"
+  url = "/posts"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Catégories"
+  url = "/categories/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20

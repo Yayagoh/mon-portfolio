@@ -1,0 +1,49 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+<div style="display: flex; flex-direction: column; gap: 3rem; margin-top: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+    <div style="text-align: center; padding: 2rem; background: var(--entry); border-radius: var(--radius); border: 1px solid var(--border);">
+        <h2 style="margin-bottom: 0.75rem; font-size: 1.5rem;">Projets</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--secondary);">Découvrez mes projets réalisés</p>
+        <a href="/posts/" class="button" style="display: inline-block;">
+            <span class="button-inner">Voir les projets</span>
+        </a>
+    </div>
+    
+    <div style="text-align: center; padding: 2rem; background: var(--entry); border-radius: var(--radius); border: 1px solid var(--border);">
+        <h2 style="margin-bottom: 0.75rem; font-size: 1.5rem;">Missions</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--secondary);">Consultez mes missions professionnelles</p>
+        <a href="/missions/" class="button" style="display: inline-block;">
+            <span class="button-inner">Voir les missions</span>
+        </a>
+    </div>
+    
+    <div style="text-align: center; padding: 2rem; background: var(--entry); border-radius: var(--radius); border: 1px solid var(--border);">
+        <h2 style="margin-bottom: 0.75rem; font-size: 1.5rem;">Veille technologique</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--secondary);">Découvrez mes articles de veille technologique</p>
+        <a href="/veille/" class="button" style="display: inline-block;">
+            <span class="button-inner">Voir la veille</span>
+        </a>
+    </div>
+    
+    <div style="text-align: center; padding: 2rem; background: var(--entry); border-radius: var(--radius); border: 1px solid var(--border);">
+        <h2 style="margin-bottom: 0.75rem; font-size: 1.5rem;">Mon CV</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--secondary);">Consultez mon curriculum vitae</p>
+        <a href="/cv/" class="button" style="display: inline-block;">
+            <span class="button-inner">Voir mon CV</span>
+        </a>
+    </div>
+</div>
+
+{{- end }}{{/* end main */ -}}
+

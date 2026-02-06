@@ -1,0 +1,129 @@
+.e6-hero {
+  margin-top: 1.25rem;
+  padding: 1.25rem 1.25rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.06);
+}
+
+.e6-hero__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+}
+
+.e6-hero__meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.e6-pill {
+  padding: 0.75rem 0.85rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--theme) 60%, var(--entry));
+}
+
+.e6-pill__label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--secondary);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.e6-pill__value {
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: 650;
+}
+
+.e6-hero__objectifs {
+  margin-top: 0.9rem;
+  color: var(--content);
+}
+
+.missions-grid {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mission-card {
+  grid-column: span 6;
+  display: block;
+  padding: 1.1rem 1.1rem;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--entry);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--primary) 35%, var(--border));
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.mission-card__top {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+}
+
+.mission-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.mission-card__title {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.mission-card__summary {
+  margin-top: 0.55rem;
+  color: var(--secondary);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.mission-card__footer {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+  color: var(--secondary);
+  font-size: 0.85rem;
+}
+
+.mission-card__cta {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .e6-hero__meta {
+    grid-template-columns: 1fr;
+  }
+  .mission-card {
+    grid-column: span 12;
+  }
+}
+
+
+

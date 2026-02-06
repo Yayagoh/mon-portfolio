@@ -1,0 +1,97 @@
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- /* Bloc E6 éditable via content/missions/_index.md (params.e6.*) */ -}}
+{{- $e6 := .Params.e6 -}}
+{{- if $e6 }}
+<section class="e6-hero">
+  <h2 class="e6-hero__title">{{ $e6.title | default "Épreuve E6 — Parcours de professionnalisation" }}</h2>
+  {{- with $e6.subtitle }}
+  <p class="e6-hero__objectifs">{{ . | markdownify }}</p>
+  {{- end }}
+  <div class="e6-hero__meta">
+    {{- with $e6.coef }}
+    <div class="e6-pill">
+      <span class="e6-pill__label">Coefficient</span>
+      <span class="e6-pill__value">{{ . }}</span>
+    </div>
+    {{- end }}
+    {{- with $e6.duree }}
+    <div class="e6-pill">
+      <span class="e6-pill__label">Durée</span>
+      <span class="e6-pill__value">{{ . }}</span>
+    </div>
+    {{- end }}
+    {{- with $e6.modalite }}
+    <div class="e6-pill">
+      <span class="e6-pill__label">Modalité</span>
+      <span class="e6-pill__value">{{ . }}</span>
+    </div>
+    {{- end }}
+  </div>
+  {{- with $e6.objectifs }}
+  <div class="e6-hero__objectifs">
+    <strong>Objectifs :</strong>
+    {{ . | markdownify }}
+  </div>
+  {{- end }}
+</section>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pages := .RegularPages }}
+
+<section class="missions-grid">
+  {{- range $pages.ByDate.Reverse }}
+  <a class="mission-card" href="{{ .RelPermalink }}">
+    <div class="mission-card__top">
+      <div class="mission-card__icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 7h18"></path>
+          <path d="M7 3h10"></path>
+          <path d="M7 21h10"></path>
+          <path d="M5 7v14"></path>
+          <path d="M19 7v14"></path>
+        </svg>
+      </div>
+      <div style="min-width: 0;">
+        <h3 class="mission-card__title">{{ .Title }}</h3>
+        <div class="mission-card__summary">
+          {{- if .Summary -}}
+            {{ .Summary | plainify | truncate 180 }}
+          {{- else -}}
+            {{ .Plain | truncate 180 }}
+          {{- end -}}
+        </div>
+        <div class="mission-card__footer">
+          <span>{{ .Date.Format "02/01/2006" }}</span>
+          <span class="mission-card__cta">Ouvrir →</span>
+        </div>
+      </div>
+    </div>
+  </a>
+  {{- end }}
+</section>
+
+{{- end }}
+
+
+
