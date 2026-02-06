@@ -4,14 +4,39 @@ title = "Mon Portfolio"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   ShowShareButtons = false
   ShowReadingTime = true
+  avatarInitials = "CS"
+
+  about = """
+Salut, moi c'est **Charles SALAUN** 👋
+
+Je suis étudiant en **BTS SIO option SISR**. Passionné par les infrastructures, le support utilisateur et l'administration système.
+
+En alternance chez **VINCI Construction**, j'assure le support de proximité : résolution d'incidents, déploiement de postes, gestion du parc informatique et de la flotte mobile.
+"""
+
+[[params.competences]]
+  titre = "Support"
+  items = "MySupport, Ticketing, AnyDesk, Prise en main à distance"
+
+[[params.competences]]
+  titre = "Infrastructure"
+  items = "Active Directory, Windows 11, Déploiement, Imagerie"
+
+[[params.competences]]
+  titre = "Réseau & Outils"
+  items = "VPN, PowerShell, Nginx, Hugo"
+
+[[params.competences]]
+  titre = "Flotte mobile"
+  items = "Android, iOS, Exchange, MFA"
 
 [params.profileMode]
   enabled = true
-  title = "SALAUN Charles"
-  subtitle = "Étudiant en BTS SIO chez ScholaNova"
+  title = "Charles SALAUN"
+  subtitle = "Étudiant BTS SIO SISR"
 
 [[params.profileMode.buttons]]
   name = "Mon CV"
@@ -27,7 +52,15 @@ theme = "PaperMod"
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://linkedin.com/"
+  url = "https://www.linkedin.com/in/charles-salaun8a71022"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Yayagoh"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:charlys.salaun@gmail.com"
 
 [[menu.main]]
   identifier = "home"

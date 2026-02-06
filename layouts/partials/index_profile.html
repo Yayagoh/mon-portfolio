@@ -1,123 +1,117 @@
-<div class="profile">
-    {{- with site.Params.profileMode }}
-    <div class="profile_inner" style="max-width: 800px; margin: 0 auto; padding: 4rem 2rem;">
-        <div style="margin-bottom: 3rem; text-align: center;">
-            <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; margin-bottom: 1rem; letter-spacing: -0.02em; line-height: 1.1;">
-                {{ .title | default site.Title | markdownify }}
-            </h1>
-            <span style="font-size: clamp(1.1rem, 2vw, 1.4rem); color: var(--secondary); display: block; font-weight: 400; letter-spacing: 0.01em;">
-                {{ .subtitle | markdownify }}
-            </span>
-            <span style="font-size: clamp(0.95rem, 1.8vw, 1.15rem); color: var(--secondary); display: block; margin-top: 0.75rem; font-weight: 400; opacity: 0.85;">
-                Alternant chez Vinci Construction dans l'équipe de support de proximité
-            </span>
-        </div>
-        
-        <div style="display: flex; justify-content: center; margin-bottom: 3rem;">
-            {{- partial "social_icons.html" -}}
-        </div>
-        
-        {{- with .buttons }}
-        <div class="buttons" style="margin-top: 0; gap: 1.25rem; justify-content: center;">
-            {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}" style="background: var(--entry); border: 2px solid var(--border); padding: 1rem 2.5rem; font-size: 1.05rem; font-weight: 600; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);">
-                <span class="button-inner">
-                    {{ .name }}
-                    {{- if (findRE "://" .url) }}&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14" style="display: inline-block; vertical-align: middle;">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                    {{- end }}
-                </span>
-            </a>
-            {{- end }}
-        </div>
-        {{- end }}
-        
-        <div class="buttons" style="margin-top: 1.5rem; gap: 1.25rem; justify-content: center;">
-            <a class="button" href="/tableau-competences.pdf" download="tableau-competences.pdf" rel="noopener" title="Télécharger mon dossier de compétences" style="background: var(--entry); border: 2px solid var(--border); padding: 1rem 2.5rem; font-size: 1.05rem; font-weight: 600; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);">
-                <span class="button-inner">
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="18" width="18" style="display: inline-block; vertical-align: middle; margin-right: 0.5rem;">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Mon dossier de compétences
-                </span>
-            </a>
-        </div>
+{{- with site.Params.profileMode -}}
+<main class="home-adam">
+  {{- /* Hero */ -}}
+  <section class="home-hero" id="top">
+    <h1 class="home-hero__name">{{ .title | default site.Title | markdownify }}</h1>
+    <p class="home-hero__tagline">{{ .subtitle | default "Étudiant BTS SIO SISR" }} | Alternant chez VINCI Construction</p>
+    <a class="home-hero__cta" href="#a-propos">Découvrir</a>
+    {{- partial "social_icons.html" -}}
+  </section>
+
+  {{- /* À Propos */ -}}
+  <section class="home-section" id="a-propos">
+    <h2 class="home-section__title">À Propos</h2>
+    <div class="home-about">
+      {{- if .imageUrl }}
+      <img class="home-about__img" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "Photo" }}" width="180" height="180">
+      {{- else }}
+      <div class="home-about__avatar">{{ site.Params.avatarInitials | default "CS" }}</div>
+      {{- end }}
+      <div class="home-about__content">
+        <p>{{ site.Params.about | default "Salut, moi c'est <strong>Charles SALAUN</strong> 👋<br>Je suis étudiant en <strong>BTS SIO option SISR</strong>. Passionné par les infrastructures, le support utilisateur et l'administration système.<br>En alternance chez <strong>VINCI Construction</strong>, j'assure le support de proximité : résolution d'incidents, déploiement de postes, gestion du parc informatique et de la flotte mobile." | markdownify }}</p>
+        <a class="home-btn home-btn--primary" href="/cv/">Voir mon CV</a>
+      </div>
     </div>
-    {{- end}}
-</div>
+  </section>
 
-<style>
-    .profile .button {
-        position: relative;
-        overflow: hidden;
-    }
-    
-    .profile .button::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-        transition: left 0.5s;
-    }
-    
-    .profile .button:hover::before {
-        left: 100%;
-    }
-    
-    .profile .button:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px -5px rgba(0,0,0,0.2), 0 4px 6px -2px rgba(0,0,0,0.1);
-        border-color: var(--primary);
-        background: var(--theme);
-    }
-    
-    .profile .button:active {
-        transform: translateY(-1px);
-    }
-    
-    .profile .social-icons {
-        gap: 1.5rem;
-    }
-    
-    .profile .social-icons a {
-        transition: all 0.3s ease;
-        padding: 0.5rem;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .profile .social-icons a:hover {
-        transform: translateY(-3px) scale(1.1);
-        background: var(--entry);
-    }
-    
-    @media (max-width: 768px) {
-        .profile .profile_inner {
-            padding: 2rem 1rem;
-        }
-        
-        .profile .buttons {
-            flex-direction: column;
-            align-items: stretch;
-        }
-        
-        .profile .button {
-            width: 100%;
-            text-align: center;
-        }
-    }
-</style>
+  {{- /* BTS SIO (SISR uniquement) */ -}}
+  <section class="home-section">
+    <h2 class="home-section__title">Qu'est-ce que le BTS SIO ?</h2>
+    <p class="home-section__lead">Avant de parler de moi, voici une présentation rapide de ma filière.</p>
+    <p>Le <strong>Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO)</strong> forme en deux ans aux métiers d'administrateur réseau ou de développeur. Ce diplôme permet soit une insertion rapide dans le monde professionnel, soit une poursuite d'études.</p>
+    <h3 class="home-section__sub">Option SISR — ma spécialité</h3>
+    <p>L'option <strong>Solutions d'infrastructure, systèmes et réseaux</strong> forme des professionnels des réseaux et équipements informatiques. Elle prépare aux métiers suivants :</p>
+    <ul class="home-sio-list">
+      <li>Administrateur systèmes et réseaux</li>
+      <li>Technicien support et déploiement</li>
+      <li>Pilote d'exploitation</li>
+      <li>Support systèmes et réseaux</li>
+      <li>Technicien d'infrastructure</li>
+      <li>Technicien de production</li>
+      <li>Technicien micro et réseaux</li>
+    </ul>
+  </section>
 
+  {{- /* Compétences */ -}}
+  <section class="home-section">
+    <h2 class="home-section__title">Compétences</h2>
+    <div class="home-skills">
+      {{- range site.Params.competences }}
+      <div class="home-skill">
+        <h4 class="home-skill__title">{{ .titre }}</h4>
+        <p class="home-skill__items">{{ .items }}</p>
+      </div>
+      {{- else }}
+      <div class="home-skill">
+        <h4 class="home-skill__title">Support</h4>
+        <p class="home-skill__items">MySupport, Ticketing, AnyDesk, Prise en main à distance</p>
+      </div>
+      <div class="home-skill">
+        <h4 class="home-skill__title">Infrastructure</h4>
+        <p class="home-skill__items">Active Directory, Windows 11, Déploiement, Imagerie</p>
+      </div>
+      <div class="home-skill">
+        <h4 class="home-skill__title">Réseau & Outils</h4>
+        <p class="home-skill__items">VPN, PowerShell, Nginx, Hugo</p>
+      </div>
+      <div class="home-skill">
+        <h4 class="home-skill__title">Flotte mobile</h4>
+        <p class="home-skill__items">Android, iOS, Exchange, MFA</p>
+      </div>
+      {{- end }}
+    </div>
+  </section>
+
+  {{- /* Documentations / Productions */ -}}
+  <section class="home-section">
+    <h2 class="home-section__title">Documentations & Productions</h2>
+    <div class="home-docs">
+      <a class="home-doc-card" href="/missions/">
+        <span class="home-doc-card__title">Missions</span>
+        <span class="home-doc-card__desc">Support utilisateur, déploiement de postes, configuration téléphones</span>
+      </a>
+      <a class="home-doc-card" href="/posts/">
+        <span class="home-doc-card__title">Projets</span>
+        <span class="home-doc-card__desc">Infrastructure web, automatisation, portfolio</span>
+      </a>
+      <a class="home-doc-card" href="/veille/">
+        <span class="home-doc-card__title">Veille technologique</span>
+        <span class="home-doc-card__desc">Green IT, actualités et analyses</span>
+      </a>
+    </div>
+    <a class="home-btn home-btn--outline" href="/categories/">Voir tout</a>
+  </section>
+
+  {{- /* Boutons principaux */ -}}
+  <section class="home-section home-actions">
+    {{- with .buttons }}
+    <div class="home-buttons">
+      {{- range . }}
+      <a class="home-btn home-btn--primary" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+        {{ .name }}
+        {{- if findRE "://" .url }} ↗{{- end }}
+      </a>
+      {{- end }}
+    </div>
+    {{- end }}
+    <a class="home-btn home-btn--outline" href="/tableau-competences.pdf" download="tableau-competences.pdf">Mon dossier de compétences</a>
+  </section>
+
+  {{- /* Contact */ -}}
+  <section class="home-section" id="contact">
+    <h2 class="home-section__title">Contact</h2>
+    <p class="home-contact-text">Une question ou un projet ? N'hésitez pas à me contacter.</p>
+    <a class="home-btn home-btn--primary" href="mailto:charlys.salaun@gmail.com">Envoyer un message</a>
+  </section>
+</main>
+{{- end -}}

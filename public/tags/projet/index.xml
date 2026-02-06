@@ -1,24 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Projet on Mon Portfolio</title>
-    <link>http://192.168.1.31/tags/projet/</link>
-    <description>Recent content in Projet on Mon Portfolio</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://192.168.1.31/tags/projet/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Projet 1</title>
-      <link>http://192.168.1.31/posts/premier-projet/</link>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.31/posts/premier-projet/</guid>
-      <description>&lt;h2 id=&#34;déploiement-dune-infrastructure-web-sécurisée-et-automatisée-à-domicile&#34;&gt;Déploiement d&amp;rsquo;une Infrastructure Web Sécurisée et Automatisée à Domicile&lt;/h2&gt;
-&lt;h3 id=&#34;le-besoin&#34;&gt;Le Besoin&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projet on Mon Portfolio</title><link>https://yagoh-cs.me/tags/projet/</link><description>Recent content in Projet on Mon Portfolio</description><generator>Hugo -- 0.152.2</generator><language>fr-fr</language><lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yagoh-cs.me/tags/projet/index.xml" rel="self" type="application/rss+xml"/><item><title>Projet 1</title><link>https://yagoh-cs.me/posts/premier-projet/</link><pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/posts/premier-projet/</guid><description>&lt;h2 id="déploiement-dune-infrastructure-web-sécurisée-et-automatisée-à-domicile"&gt;Déploiement d&amp;rsquo;une Infrastructure Web Sécurisée et Automatisée à Domicile&lt;/h2&gt;
+&lt;h3 id="le-besoin"&gt;Le Besoin&lt;/h3&gt;
 &lt;p&gt;Dans le cadre de mon BTS SIO, j&amp;rsquo;ai souhaité réaliser un portfolio souverain, hébergé chez moi, totalement maîtrisé et sécurisé. Mon objectif était de rendre ce site accessible partout dans le monde, tout en évitant les solutions d&amp;rsquo;hébergement payantes ou dépendantes de fournisseurs tiers.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;architecture-réseau&#34;&gt;Architecture Réseau&lt;/h3&gt;
-&lt;p&gt;Pour répondre à ce besoin, j&amp;rsquo;ai conçu une infrastructure typique de l&amp;rsquo;administration système et réseaux :&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;h3 id="architecture-réseau"&gt;Architecture Réseau&lt;/h3&gt;
+&lt;p&gt;Pour répondre à ce besoin, j&amp;rsquo;ai conçu une infrastructure typique de l&amp;rsquo;administration système et réseaux :&lt;/p&gt;</description></item></channel></rss>

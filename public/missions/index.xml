@@ -1,68 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Missions on Mon Portfolio</title>
-    <link>http://192.168.1.31/missions/</link>
-    <description>Recent content in Missions on Mon Portfolio</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://192.168.1.31/missions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Gestion du Support Utilisateur (Helpdesk)</title>
-      <link>http://192.168.1.31/missions/resolution-de-ticket/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.31/missions/resolution-de-ticket/</guid>
-      <description>&lt;h2 id=&#34;contexte-de-la-mission&#34;&gt;Contexte de la Mission&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Missions on Mon Portfolio</title><link>https://yagoh-cs.me/missions/</link><description>Recent content in Missions on Mon Portfolio</description><generator>Hugo -- 0.152.2</generator><language>fr-fr</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yagoh-cs.me/missions/index.xml" rel="self" type="application/rss+xml"/><item><title>Gestion du Support Utilisateur (Helpdesk)</title><link>https://yagoh-cs.me/missions/resolution-de-ticket/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/missions/resolution-de-ticket/</guid><description>&lt;h2 id="contexte-de-la-mission"&gt;Contexte de la Mission&lt;/h2&gt;
 &lt;p&gt;Dans le cadre de mon alternance en BTS SIO, j&amp;rsquo;ai assuré le support de proximité auprès des utilisateurs de l&amp;rsquo;entreprise. Le traitement quotidien des demandes d&amp;rsquo;assistance est essentiel pour garantir la continuité d&amp;rsquo;activité et maintenir la productivité des équipes.&lt;/p&gt;
-&lt;h2 id=&#34;outils-et-moyens-mis-en-œuvre&#34;&gt;Outils et Moyens Mis en Œuvre&lt;/h2&gt;
+&lt;h2 id="outils-et-moyens-mis-en-œuvre"&gt;Outils et Moyens Mis en Œuvre&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Système de ticketing&lt;/strong&gt; : Gestion centralisée des demandes via &lt;strong&gt;MySupport&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Prise en main à distance&lt;/strong&gt; : Utilisation d&amp;rsquo;outils comme AnyDesk ou LogMeIn pour intervenir directement sur les postes des utilisateurs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;démarche-de-traitement&#34;&gt;Démarche de Traitement&lt;/h2&gt;
+&lt;h2 id="démarche-de-traitement"&gt;Démarche de Traitement&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Réception du ticket :&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gestion et Configuration de la Flotte Mobile</title>
-      <link>http://192.168.1.31/missions/configuration-de-telephones/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.31/missions/configuration-de-telephones/</guid>
-      <description>&lt;h2 id=&#34;actions-réalisées&#34;&gt;Actions réalisées&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Réception du ticket :&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Gestion et Configuration de la Flotte Mobile</title><link>https://yagoh-cs.me/missions/configuration-de-telephones/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/missions/configuration-de-telephones/</guid><description>&lt;h2 id="actions-réalisées"&gt;Actions réalisées&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Initialisation des smartphones (Android/iOS) pour chaque utilisateur&lt;/li&gt;
 &lt;li&gt;Configuration de la messagerie professionnelle (Exchange/Outlook)&lt;/li&gt;
 &lt;li&gt;Installation des applications métier essentielles (authentification multi-facteur, Teams&amp;hellip;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;sécurisation&#34;&gt;Sécurisation&lt;/h2&gt;
+&lt;h2 id="sécurisation"&gt;Sécurisation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Mise en place obligatoire d&amp;rsquo;un code/pattern de verrouillage d&amp;rsquo;écran&lt;/li&gt;
 &lt;li&gt;Activation du chiffrement des données sur l&amp;rsquo;ensemble des terminaux&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;bilan&#34;&gt;Bilan&lt;/h2&gt;
+&lt;h2 id="bilan"&gt;Bilan&lt;/h2&gt;
 &lt;p&gt;Cette mission garantit aux collaborateurs une utilisation sécurisée et productive de leur smartphone professionnel, en favorisant la mobilité et le télétravail.&lt;/p&gt;
-&lt;hr&gt;</description>
-    </item>
-    <item>
-      <title>Industrialisation et Déploiement de Postes</title>
-      <link>http://192.168.1.31/missions/configuration-de-postes/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.31/missions/configuration-de-postes/</guid>
-      <description>&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
+&lt;hr&gt;</description></item><item><title>Industrialisation et Déploiement de Postes</title><link>https://yagoh-cs.me/missions/configuration-de-postes/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/missions/configuration-de-postes/</guid><description>&lt;h2 id="contexte"&gt;Contexte&lt;/h2&gt;
 &lt;p&gt;Dans le cadre du renouvellement du parc informatique ou de l&amp;rsquo;arrivée de nouveaux collaborateurs, il est essentiel de mettre à disposition rapidement des postes de travail opérationnels, configurés de manière homogène et sécurisée.&lt;/p&gt;
-&lt;h2 id=&#34;technique-utilisée&#34;&gt;Technique Utilisée&lt;/h2&gt;
+&lt;h2 id="technique-utilisée"&gt;Technique Utilisée&lt;/h2&gt;
 &lt;p&gt;Pour garantir une installation rapide et conforme aux standards de l&amp;rsquo;entreprise, une image disque &amp;ldquo;Master&amp;rdquo; (préparée en amont par l&amp;rsquo;équipe infrastructure) est mise à disposition. Cette image inclut :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Le système d&amp;rsquo;exploitation préconfiguré Windows 11&lt;/li&gt;
 &lt;li&gt;Les logiciels standards utilisés par l&amp;rsquo;entreprise&lt;/li&gt;
 &lt;li&gt;Les paramètres de sécurité de base&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;étapes-de-la-mission&#34;&gt;Étapes de la Mission&lt;/h2&gt;
+&lt;h2 id="étapes-de-la-mission"&gt;Étapes de la Mission&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Récupération et Utilisation du Master&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;&lt;strong&gt;Récupération et Utilisation du Master&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
