@@ -46,66 +46,75 @@
   color: var(--content);
 }
 
+/* Grille de missions : 3 colonnes sur PC, 1 sur mobile */
 .missions-grid {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
 }
 
+/* Cartes : fond sombre légèrement plus clair que le site */
 .mission-card {
-  grid-column: span 6;
   display: block;
-  padding: 1.1rem 1.1rem;
-  border-radius: 14px;
+  padding: 1.25rem;
+  border-radius: 16px;
   border: 1px solid var(--border);
-  background: var(--entry);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  background: color-mix(in srgb, var(--theme) 70%, var(--entry));
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .mission-card:hover {
-  transform: translateY(-3px);
-  border-color: color-mix(in srgb, var(--primary) 35%, var(--border));
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  border-color: color-mix(in srgb, var(--primary) 30%, var(--border));
 }
 
+/* Conteneur titre + icône dossier */
 .mission-card__top {
   display: flex;
-  gap: 0.85rem;
+  gap: 1rem;
   align-items: flex-start;
 }
 
+/* Icône dossier avant le titre */
 .mission-card__icon {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   border-radius: 12px;
   display: grid;
   place-items: center;
-  flex: 0 0 auto;
+  flex-shrink: 0;
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   color: rgba(255, 255, 255, 0.95);
+}
+
+.mission-card__icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .mission-card__title {
   margin: 0;
   font-size: 1.15rem;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
 }
 
 .mission-card__summary {
-  margin-top: 0.55rem;
+  margin-top: 0.6rem;
   color: var(--secondary);
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .mission-card__footer {
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
-  gap: 0.75rem;
   align-items: center;
   color: var(--secondary);
   font-size: 0.85rem;
@@ -116,12 +125,15 @@
   font-weight: 600;
 }
 
+/* 1 colonne sur mobile */
 @media (max-width: 900px) {
   .e6-hero__meta {
     grid-template-columns: 1fr;
   }
-  .mission-card {
-    grid-column: span 12;
+
+  .missions-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
