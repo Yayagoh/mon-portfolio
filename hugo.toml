@@ -1,4 +1,4 @@
-baseURL = "http://192.168.1.31/"
+baseURL = "https://yagoh-cs.me/mon-portfolio/"
 languageCode = "fr-fr"
 title = "Mon Portfolio"
 theme = "PaperMod"
