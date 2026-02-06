@@ -1,4 +1,4 @@
-baseURL = "https://yagoh-cs.me/mon-portfolio/"
+baseURL = "https://yagoh-cs.me/"
 languageCode = "fr-fr"
 title = "Mon Portfolio"
 theme = "PaperMod"
@@ -20,6 +20,10 @@ theme = "PaperMod"
 [[params.profileMode.buttons]]
   name = "Mes Projets"
   url = "/posts"
+
+[[params.profileMode.buttons]]
+  name = "GitHub"
+  url = "https://github.com/Yayagoh"
 
 [[params.socialIcons]]
   name = "linkedin"
