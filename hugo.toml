@@ -76,9 +76,3 @@ En alternance chez **VINCI Construction**, j'assure le support de proximité : r
   name = "Catégories"
   url = "/categories/"
   weight = 10
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 20
