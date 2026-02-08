@@ -3,6 +3,9 @@ languageCode = "fr-fr"
 title = "Mon Portfolio"
 theme = "PaperMod"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   defaultTheme = "dark"
   ShowShareButtons = false

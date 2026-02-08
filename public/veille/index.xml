@@ -124,13 +124,6 @@ gap: 1.5rem;
 &lt;div class="veille-card-meta"&gt;
 &lt;span class="veille-card-meta-item"&gt;
 &lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;
-&lt;polyline points="12 6 12 12 16 14"&gt;&lt;/polyline&gt;
-&lt;/svg&gt;
-15 janvier 2024
-&lt;/span&gt;
-&lt;span class="veille-card-meta-item"&gt;
-&lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
 &lt;path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"&gt;&lt;/path&gt;
 &lt;path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"&gt;&lt;/path&gt;
 &lt;/svg&gt;
@@ -168,13 +161,6 @@ Pour un technicien SIO, cela signifie qu&amp;#39;il ne faut pas intégrer de l&a
 &lt;div class="veille-card-meta"&gt;
 &lt;span class="veille-card-meta-item"&gt;
 &lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;
-&lt;polyline points="12 6 12 12 16 14"&gt;&lt;/polyline&gt;
-&lt;/svg&gt;
-20 janvier 2024
-&lt;/span&gt;
-&lt;span class="veille-card-meta-item"&gt;
-&lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
 &lt;path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"&gt;&lt;/path&gt;
 &lt;path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"&gt;&lt;/path&gt;
 &lt;/svg&gt;
@@ -210,13 +196,6 @@ En tant que futur administrateur réseau (ou dév), cela impacte les choix d&amp
 &lt;div style="flex: 1;"&gt;
 &lt;h3 class="veille-card-title"&gt;Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines&lt;/h3&gt;
 &lt;div class="veille-card-meta"&gt;
-&lt;span class="veille-card-meta-item"&gt;
-&lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;
-&lt;polyline points="12 6 12 12 16 14"&gt;&lt;/polyline&gt;
-&lt;/svg&gt;
-10 janvier 2024
-&lt;/span&gt;
 &lt;span class="veille-card-meta-item"&gt;
 &lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
 &lt;path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"&gt;&lt;/path&gt;
