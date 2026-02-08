@@ -16,3 +16,62 @@
   --code-bg: #09090b;
 }
 
+/* Dropdown menu Épreuves */
+.nav-dropdown {
+  position: relative;
+  list-style: none;
+}
+
+.nav-dropdown-trigger {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  display: inline-block;
+  color: var(--primary);
+}
+
+.nav-dropdown:hover .nav-dropdown-trigger {
+  color: var(--primary);
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  list-style: none;
+  z-index: 100;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.nav-dropdown-menu li {
+  margin: 0;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--primary);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.nav-dropdown-menu a:hover {
+  background: var(--code-bg);
+}
+

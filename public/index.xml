@@ -1,304 +1,418 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Mon Portfolio</title><link>https://yagoh-cs.me/</link><description>Recent content on Mon Portfolio</description><generator>Hugo -- 0.152.2</generator><language>fr-fr</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yagoh-cs.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Épreuve E6 — Parcours de professionnalisation</title><link>https://yagoh-cs.me/epreuve-e6/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/epreuve-e6/</guid><description>&lt;h1 id="épreuve-e6--parcours-de-professionnalisation"&gt;Épreuve E6 — Parcours de professionnalisation&lt;/h1&gt;
-&lt;h2 id="présentation-de-lépreuve-e6"&gt;Présentation de l&amp;rsquo;Épreuve E6&lt;/h2&gt;
-&lt;h3 id="informations-de-lépreuve"&gt;Informations de l&amp;rsquo;épreuve&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mon Portfolio</title>
+    <link>https://yagoh-cs.me/</link>
+    <description>Recent content on Mon Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yagoh-cs.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Épreuve E5 — Mise en place d&#39;une solution applicative</title>
+      <link>https://yagoh-cs.me/epreuve-e5/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/epreuve-e5/</guid>
+      <description>&lt;h1 id=&#34;épreuve-e5--mise-en-place-dune-solution-applicative&#34;&gt;Épreuve E5 — Mise en place d&amp;rsquo;une solution applicative&lt;/h1&gt;
+&lt;h2 id=&#34;présentation-de-lépreuve-e5&#34;&gt;Présentation de l&amp;rsquo;Épreuve E5&lt;/h2&gt;
+&lt;h3 id=&#34;informations-de-lépreuve&#34;&gt;Informations de l&amp;rsquo;épreuve&lt;/h3&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Élément&lt;/th&gt;
-&lt;th&gt;Valeur&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Nom&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Parcours de professionnalisation&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Coefficient&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Durée&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;30 minutes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Modalité&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Oral&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Documents à fournir&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Fiches de réalisations professionnelles&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Élément&lt;/th&gt;
+          &lt;th&gt;Valeur&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Nom&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Mise en place d&amp;rsquo;une solution applicative&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coefficient&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Durée&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;45 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Modalité&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Écrit + Oral&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="objectif"&gt;Objectif&lt;/h3&gt;
-&lt;p&gt;Cette épreuve vise à évaluer chez le candidat l&amp;rsquo;acquisition des compétences décrites dans le référentiel du BTS SIO, au travers de son parcours en entreprise. Elle s&amp;rsquo;appuie sur des réalisations professionnelles effectuées en alternance (missions, projets) et permet de valoriser l&amp;rsquo;expérience, les choix techniques et l&amp;rsquo;évolution des compétences.&lt;/p&gt;</description></item><item><title>Gestion du Support Utilisateur (Helpdesk)</title><link>https://yagoh-cs.me/missions/resolution-de-ticket/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/missions/resolution-de-ticket/</guid><description>&lt;h2 id="contexte-de-la-mission"&gt;Contexte de la Mission&lt;/h2&gt;
+&lt;h3 id=&#34;objectif&#34;&gt;Objectif&lt;/h3&gt;
+&lt;p&gt;Cette épreuve vise à évaluer la capacité du candidat à analyser un besoin, concevoir une solution applicative adaptée et en assurer la mise en œuvre. Elle couvre les aspects de développement, d&amp;rsquo;intégration et de déploiement de solutions logicielles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Épreuve E6 — Parcours de professionnalisation</title>
+      <link>https://yagoh-cs.me/epreuve-e6/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/epreuve-e6/</guid>
+      <description>&lt;h1 id=&#34;épreuve-e6--parcours-de-professionnalisation&#34;&gt;Épreuve E6 — Parcours de professionnalisation&lt;/h1&gt;
+&lt;h2 id=&#34;présentation-de-lépreuve-e6&#34;&gt;Présentation de l&amp;rsquo;Épreuve E6&lt;/h2&gt;
+&lt;h3 id=&#34;informations-de-lépreuve&#34;&gt;Informations de l&amp;rsquo;épreuve&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Élément&lt;/th&gt;
+          &lt;th&gt;Valeur&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Nom&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Parcours de professionnalisation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coefficient&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Durée&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Modalité&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Oral&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Documents à fournir&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Fiches de réalisations professionnelles&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;objectif&#34;&gt;Objectif&lt;/h3&gt;
+&lt;p&gt;Cette épreuve vise à évaluer chez le candidat l&amp;rsquo;acquisition des compétences décrites dans le référentiel du BTS SIO, au travers de son parcours en entreprise. Elle s&amp;rsquo;appuie sur des réalisations professionnelles effectuées en alternance (missions, projets) et permet de valoriser l&amp;rsquo;expérience, les choix techniques et l&amp;rsquo;évolution des compétences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gestion du Support Utilisateur (Helpdesk)</title>
+      <link>https://yagoh-cs.me/missions/resolution-de-ticket/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/missions/resolution-de-ticket/</guid>
+      <description>&lt;h2 id=&#34;contexte-de-la-mission&#34;&gt;Contexte de la Mission&lt;/h2&gt;
 &lt;p&gt;Dans le cadre de mon alternance en BTS SIO, j&amp;rsquo;ai assuré le support de proximité auprès des utilisateurs de l&amp;rsquo;entreprise. Le traitement quotidien des demandes d&amp;rsquo;assistance est essentiel pour garantir la continuité d&amp;rsquo;activité et maintenir la productivité des équipes.&lt;/p&gt;
-&lt;h2 id="outils-et-moyens-mis-en-œuvre"&gt;Outils et Moyens Mis en Œuvre&lt;/h2&gt;
+&lt;h2 id=&#34;outils-et-moyens-mis-en-œuvre&#34;&gt;Outils et Moyens Mis en Œuvre&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Système de ticketing&lt;/strong&gt; : Gestion centralisée des demandes via &lt;strong&gt;MySupport&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Prise en main à distance&lt;/strong&gt; : Utilisation d&amp;rsquo;outils comme AnyDesk ou LogMeIn pour intervenir directement sur les postes des utilisateurs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="démarche-de-traitement"&gt;Démarche de Traitement&lt;/h2&gt;
+&lt;h2 id=&#34;démarche-de-traitement&#34;&gt;Démarche de Traitement&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Réception du ticket :&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Gestion et Configuration de la Flotte Mobile</title><link>https://yagoh-cs.me/missions/configuration-de-telephones/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/missions/configuration-de-telephones/</guid><description>&lt;h2 id="actions-réalisées"&gt;Actions réalisées&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Réception du ticket :&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gestion et Configuration de la Flotte Mobile</title>
+      <link>https://yagoh-cs.me/missions/configuration-de-telephones/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/missions/configuration-de-telephones/</guid>
+      <description>&lt;h2 id=&#34;actions-réalisées&#34;&gt;Actions réalisées&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Initialisation des smartphones (Android/iOS) pour chaque utilisateur&lt;/li&gt;
 &lt;li&gt;Configuration de la messagerie professionnelle (Exchange/Outlook)&lt;/li&gt;
 &lt;li&gt;Installation des applications métier essentielles (authentification multi-facteur, Teams&amp;hellip;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="sécurisation"&gt;Sécurisation&lt;/h2&gt;
+&lt;h2 id=&#34;sécurisation&#34;&gt;Sécurisation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Mise en place obligatoire d&amp;rsquo;un code/pattern de verrouillage d&amp;rsquo;écran&lt;/li&gt;
 &lt;li&gt;Activation du chiffrement des données sur l&amp;rsquo;ensemble des terminaux&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="bilan"&gt;Bilan&lt;/h2&gt;
+&lt;h2 id=&#34;bilan&#34;&gt;Bilan&lt;/h2&gt;
 &lt;p&gt;Cette mission garantit aux collaborateurs une utilisation sécurisée et productive de leur smartphone professionnel, en favorisant la mobilité et le télétravail.&lt;/p&gt;
-&lt;hr&gt;</description></item><item><title>Green IT</title><link>https://yagoh-cs.me/veille/green-it/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/veille/green-it/</guid><description>&lt;h2 id="ma-veille-technologique---green-it"&gt;Ma Veille Technologique - Green IT&lt;/h2&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Green IT</title>
+      <link>https://yagoh-cs.me/veille/green-it/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/veille/green-it/</guid>
+      <description>&lt;h2 id=&#34;ma-veille-technologique---green-it&#34;&gt;Ma Veille Technologique - Green IT&lt;/h2&gt;
 &lt;style&gt;
 .veille-cards {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-gap: 2rem;
-margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
+
 .veille-card {
-background: var(--entry);
-border: 1px solid var(--border);
-border-radius: var(--radius);
-padding: 1.5rem;
-transition: all 0.3s ease;
-display: flex;
-flex-direction: column;
-box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
 .veille-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-border-color: var(--primary);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  border-color: var(--primary);
 }
+
 .veille-card-header {
-display: flex;
-align-items: flex-start;
-gap: 1rem;
-margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
+
 .veille-card-icon {
-width: 48px;
-height: 48px;
-border-radius: 12px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-shrink: 0;
-font-size: 1.5rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.5rem;
 }
+
 .veille-card-icon.software {
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
+
 .veille-card-icon.materiel {
-background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
+
 .veille-card-icon.infrastructure {
-background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
 }
+
 .veille-card-title {
-font-size: 1.25rem;
-font-weight: 700;
-margin: 0 0 0.5rem 0;
-color: var(--primary);
-line-height: 1.3;
-flex: 1;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--primary);
+  line-height: 1.3;
+  flex: 1;
 }
+
 .veille-card-meta {
-display: flex;
-flex-wrap: wrap;
-gap: 0.75rem;
-margin-bottom: 1rem;
-font-size: 0.875rem;
-color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--secondary);
 }
+
 .veille-card-meta-item {
-display: flex;
-align-items: center;
-gap: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
+
 .veille-card-category {
-display: inline-flex;
-align-items: center;
-gap: 0.5rem;
-padding: 0.375rem 0.75rem;
-background: var(--tertiary);
-border-radius: 6px;
-font-size: 0.8125rem;
-font-weight: 500;
-color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background: var(--tertiary);
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--primary);
 }
+
 .veille-card-summary {
-margin-bottom: 1.25rem;
-color: var(--content);
-line-height: 1.6;
-flex: 1;
+  margin-bottom: 1.25rem;
+  color: var(--content);
+  line-height: 1.6;
+  flex: 1;
 }
+
 .veille-card-analysis {
-background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-border-left: 4px solid #667eea;
-padding: 1rem;
-border-radius: 8px;
-margin-top: auto;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: auto;
 }
+
 .veille-card-analysis-title {
-font-weight: 700;
-font-size: 0.875rem;
-text-transform: uppercase;
-letter-spacing: 0.05em;
-color: var(--primary);
-margin-bottom: 0.5rem;
-display: flex;
-align-items: center;
-gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
+
 .veille-card-analysis-content {
-color: var(--content);
-line-height: 1.6;
-font-size: 0.9375rem;
+  color: var(--content);
+  line-height: 1.6;
+  font-size: 0.9375rem;
 }
+
 @media (max-width: 768px) {
-.veille-cards {
-grid-template-columns: 1fr;
-gap: 1.5rem;
-}
+  .veille-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 &lt;/style&gt;
-&lt;div class="veille-cards"&gt;&lt;article class="veille-card"&gt;
-&lt;div class="veille-card-header"&gt;
-&lt;div class="veille-card-icon software"&gt;
-💻
-&lt;/div&gt;
-&lt;div style="flex: 1;"&gt;
-&lt;h3 class="veille-card-title"&gt;L&amp;#39;impact environnemental de l&amp;#39;IA Générative : Vers une IA plus frugale ?&lt;/h3&gt;
-&lt;div class="veille-card-meta"&gt;
-&lt;span class="veille-card-meta-item"&gt;
-&lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"&gt;&lt;/path&gt;
-&lt;path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"&gt;&lt;/path&gt;
-&lt;/svg&gt;
-GreenIT.fr / Le Monde Informatique
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;span class="veille-card-category"&gt;
-💻
-Software / IA
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="veille-card-summary"&gt;
-&lt;strong&gt;Résumé :&lt;/strong&gt; L&amp;#39;explosion de l&amp;#39;usage des IA comme ChatGPT a fait bondir la consommation d&amp;#39;eau et d&amp;#39;électricité des datacenters. L&amp;#39;article évoque le concept d&amp;#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.
-&lt;/div&gt;
-&lt;div class="veille-card-analysis"&gt;
-&lt;div class="veille-card-analysis-title"&gt;
-&lt;svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;path d="M9 11l3 3L22 4"&gt;&lt;/path&gt;
-&lt;path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"&gt;&lt;/path&gt;
-&lt;/svg&gt;
-Mon Analyse
-&lt;/div&gt;
-&lt;div class="veille-card-analysis-content"&gt;
-Pour un technicien SIO, cela signifie qu&amp;#39;il ne faut pas intégrer de l&amp;#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C&amp;#39;est un enjeu d&amp;#39;architecture logicielle futur.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/article&gt;&lt;article class="veille-card"&gt;
-&lt;div class="veille-card-header"&gt;
-&lt;div class="veille-card-icon materiel"&gt;
-📱
-&lt;/div&gt;
-&lt;div style="flex: 1;"&gt;
-&lt;h3 class="veille-card-title"&gt;De l&amp;#39;indice de réparabilité à l&amp;#39;indice de durabilité&lt;/h3&gt;
-&lt;div class="veille-card-meta"&gt;
-&lt;span class="veille-card-meta-item"&gt;
-&lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"&gt;&lt;/path&gt;
-&lt;path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"&gt;&lt;/path&gt;
-&lt;/svg&gt;
-Service-Public.fr / ADEME
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;span class="veille-card-category"&gt;
-📱
-Matériel / Législation
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="veille-card-summary"&gt;
-&lt;strong&gt;Résumé :&lt;/strong&gt; Depuis 2024, l&amp;#39;indice de durabilité remplace progressivement l&amp;#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.
-&lt;/div&gt;
-&lt;div class="veille-card-analysis"&gt;
-&lt;div class="veille-card-analysis-title"&gt;
-&lt;svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;path d="M9 11l3 3L22 4"&gt;&lt;/path&gt;
-&lt;path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"&gt;&lt;/path&gt;
-&lt;/svg&gt;
-Mon Analyse
-&lt;/div&gt;
-&lt;div class="veille-card-analysis-content"&gt;
-En tant que futur administrateur réseau (ou dév), cela impacte les choix d&amp;#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l&amp;#39;empreinte carbone de l&amp;#39;entreprise.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/article&gt;&lt;article class="veille-card"&gt;
-&lt;div class="veille-card-header"&gt;
-&lt;div class="veille-card-icon infrastructure"&gt;
-🏢
-&lt;/div&gt;
-&lt;div style="flex: 1;"&gt;
-&lt;h3 class="veille-card-title"&gt;Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines&lt;/h3&gt;
-&lt;div class="veille-card-meta"&gt;
-&lt;span class="veille-card-meta-item"&gt;
-&lt;svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"&gt;&lt;/path&gt;
-&lt;path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"&gt;&lt;/path&gt;
-&lt;/svg&gt;
-ZDNet France
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;span class="veille-card-category"&gt;
-🏢
-Infrastructure / Datacenter
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="veille-card-summary"&gt;
-&lt;strong&gt;Résumé :&lt;/strong&gt; Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d&amp;#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.
-&lt;/div&gt;
-&lt;div class="veille-card-analysis"&gt;
-&lt;div class="veille-card-analysis-title"&gt;
-&lt;svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"&gt;
-&lt;path d="M9 11l3 3L22 4"&gt;&lt;/path&gt;
-&lt;path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"&gt;&lt;/path&gt;
-&lt;/svg&gt;
-Mon Analyse
-&lt;/div&gt;
-&lt;div class="veille-card-analysis-content"&gt;
-Cela montre que l&amp;#39;optimisation n&amp;#39;est pas que logicielle. L&amp;#39;implantation physique des salles serveurs devient stratégique. C&amp;#39;est un bel exemple d&amp;#39;économie circulaire appliqué à l&amp;#39;IT.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/article&gt;&lt;/div&gt;</description></item><item><title>Industrialisation et Déploiement de Postes</title><link>https://yagoh-cs.me/missions/configuration-de-postes/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/missions/configuration-de-postes/</guid><description>&lt;h2 id="contexte"&gt;Contexte&lt;/h2&gt;
+
+&lt;div class=&#34;veille-cards&#34;&gt;&lt;article class=&#34;veille-card&#34;&gt;
+      &lt;div class=&#34;veille-card-header&#34;&gt;
+        &lt;div class=&#34;veille-card-icon software&#34;&gt;
+          💻
+        &lt;/div&gt;
+        &lt;div style=&#34;flex: 1;&#34;&gt;
+          &lt;h3 class=&#34;veille-card-title&#34;&gt;L&amp;#39;impact environnemental de l&amp;#39;IA Générative : Vers une IA plus frugale ?&lt;/h3&gt;
+          &lt;div class=&#34;veille-card-meta&#34;&gt;
+            &lt;span class=&#34;veille-card-meta-item&#34;&gt;
+              &lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
+                &lt;path d=&#34;M4 19.5A2.5 2.5 0 0 0 6.5 17H20&#34;&gt;&lt;/path&gt;
+                &lt;path d=&#34;M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z&#34;&gt;&lt;/path&gt;
+              &lt;/svg&gt;
+              GreenIT.fr / Le Monde Informatique
+            &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;span class=&#34;veille-card-category&#34;&gt;
+            💻
+            Software / IA
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;veille-card-summary&#34;&gt;
+        &lt;strong&gt;Résumé :&lt;/strong&gt; L&amp;#39;explosion de l&amp;#39;usage des IA comme ChatGPT a fait bondir la consommation d&amp;#39;eau et d&amp;#39;électricité des datacenters. L&amp;#39;article évoque le concept d&amp;#39;IA frugale (Small Language Models) qui vise à créer des modèles moins performants mais beaucoup moins énergivores pour des tâches simples.
+      &lt;/div&gt;
+      &lt;div class=&#34;veille-card-analysis&#34;&gt;
+        &lt;div class=&#34;veille-card-analysis-title&#34;&gt;
+          &lt;svg width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
+            &lt;path d=&#34;M9 11l3 3L22 4&#34;&gt;&lt;/path&gt;
+            &lt;path d=&#34;M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11&#34;&gt;&lt;/path&gt;
+          &lt;/svg&gt;
+          Mon Analyse
+        &lt;/div&gt;
+        &lt;div class=&#34;veille-card-analysis-content&#34;&gt;
+          Pour un technicien SIO, cela signifie qu&amp;#39;il ne faut pas intégrer de l&amp;#39;IA partout par défaut. Il faut choisir le bon modèle pour le bon usage. C&amp;#39;est un enjeu d&amp;#39;architecture logicielle futur.
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;&lt;article class=&#34;veille-card&#34;&gt;
+      &lt;div class=&#34;veille-card-header&#34;&gt;
+        &lt;div class=&#34;veille-card-icon materiel&#34;&gt;
+          📱
+        &lt;/div&gt;
+        &lt;div style=&#34;flex: 1;&#34;&gt;
+          &lt;h3 class=&#34;veille-card-title&#34;&gt;De l&amp;#39;indice de réparabilité à l&amp;#39;indice de durabilité&lt;/h3&gt;
+          &lt;div class=&#34;veille-card-meta&#34;&gt;
+            &lt;span class=&#34;veille-card-meta-item&#34;&gt;
+              &lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
+                &lt;path d=&#34;M4 19.5A2.5 2.5 0 0 0 6.5 17H20&#34;&gt;&lt;/path&gt;
+                &lt;path d=&#34;M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z&#34;&gt;&lt;/path&gt;
+              &lt;/svg&gt;
+              Service-Public.fr / ADEME
+            &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;span class=&#34;veille-card-category&#34;&gt;
+            📱
+            Matériel / Législation
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;veille-card-summary&#34;&gt;
+        &lt;strong&gt;Résumé :&lt;/strong&gt; Depuis 2024, l&amp;#39;indice de durabilité remplace progressivement l&amp;#39;indice de réparabilité sur les smartphones et TV. Il prend en compte non seulement la facilité de réparation, mais aussi la robustesse et la fiabilité du matériel dans le temps.
+      &lt;/div&gt;
+      &lt;div class=&#34;veille-card-analysis&#34;&gt;
+        &lt;div class=&#34;veille-card-analysis-title&#34;&gt;
+          &lt;svg width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
+            &lt;path d=&#34;M9 11l3 3L22 4&#34;&gt;&lt;/path&gt;
+            &lt;path d=&#34;M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11&#34;&gt;&lt;/path&gt;
+          &lt;/svg&gt;
+          Mon Analyse
+        &lt;/div&gt;
+        &lt;div class=&#34;veille-card-analysis-content&#34;&gt;
+          En tant que futur administrateur réseau (ou dév), cela impacte les choix d&amp;#39;achats de parc informatique. Privilégier des appareils avec un haut indice permet de réduire le TCO (Coût total de possession) et l&amp;#39;empreinte carbone de l&amp;#39;entreprise.
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;&lt;article class=&#34;veille-card&#34;&gt;
+      &lt;div class=&#34;veille-card-header&#34;&gt;
+        &lt;div class=&#34;veille-card-icon infrastructure&#34;&gt;
+          🏢
+        &lt;/div&gt;
+        &lt;div style=&#34;flex: 1;&#34;&gt;
+          &lt;h3 class=&#34;veille-card-title&#34;&gt;Récupération de la chaleur fatale : Quand les serveurs chauffent les piscines&lt;/h3&gt;
+          &lt;div class=&#34;veille-card-meta&#34;&gt;
+            &lt;span class=&#34;veille-card-meta-item&#34;&gt;
+              &lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
+                &lt;path d=&#34;M4 19.5A2.5 2.5 0 0 0 6.5 17H20&#34;&gt;&lt;/path&gt;
+                &lt;path d=&#34;M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z&#34;&gt;&lt;/path&gt;
+              &lt;/svg&gt;
+              ZDNet France
+            &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;span class=&#34;veille-card-category&#34;&gt;
+            🏢
+            Infrastructure / Datacenter
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;veille-card-summary&#34;&gt;
+        &lt;strong&gt;Résumé :&lt;/strong&gt; Les datacenters dégagent une chaleur immense (chaleur fatale). De nouveaux projets, comme ceux d&amp;#39;Equinix ou OVH, permettent de rediriger cette chaleur vers les réseaux de chauffage urbain ou des piscines olympiques, transformant un déchet en ressource.
+      &lt;/div&gt;
+      &lt;div class=&#34;veille-card-analysis&#34;&gt;
+        &lt;div class=&#34;veille-card-analysis-title&#34;&gt;
+          &lt;svg width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
+            &lt;path d=&#34;M9 11l3 3L22 4&#34;&gt;&lt;/path&gt;
+            &lt;path d=&#34;M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11&#34;&gt;&lt;/path&gt;
+          &lt;/svg&gt;
+          Mon Analyse
+        &lt;/div&gt;
+        &lt;div class=&#34;veille-card-analysis-content&#34;&gt;
+          Cela montre que l&amp;#39;optimisation n&amp;#39;est pas que logicielle. L&amp;#39;implantation physique des salles serveurs devient stratégique. C&amp;#39;est un bel exemple d&amp;#39;économie circulaire appliqué à l&amp;#39;IT.
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Industrialisation et Déploiement de Postes</title>
+      <link>https://yagoh-cs.me/missions/configuration-de-postes/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/missions/configuration-de-postes/</guid>
+      <description>&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
 &lt;p&gt;Dans le cadre du renouvellement du parc informatique ou de l&amp;rsquo;arrivée de nouveaux collaborateurs, il est essentiel de mettre à disposition rapidement des postes de travail opérationnels, configurés de manière homogène et sécurisée.&lt;/p&gt;
-&lt;h2 id="technique-utilisée"&gt;Technique Utilisée&lt;/h2&gt;
+&lt;h2 id=&#34;technique-utilisée&#34;&gt;Technique Utilisée&lt;/h2&gt;
 &lt;p&gt;Pour garantir une installation rapide et conforme aux standards de l&amp;rsquo;entreprise, une image disque &amp;ldquo;Master&amp;rdquo; (préparée en amont par l&amp;rsquo;équipe infrastructure) est mise à disposition. Cette image inclut :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Le système d&amp;rsquo;exploitation préconfiguré Windows 11&lt;/li&gt;
 &lt;li&gt;Les logiciels standards utilisés par l&amp;rsquo;entreprise&lt;/li&gt;
 &lt;li&gt;Les paramètres de sécurité de base&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="étapes-de-la-mission"&gt;Étapes de la Mission&lt;/h2&gt;
+&lt;h2 id=&#34;étapes-de-la-mission&#34;&gt;Étapes de la Mission&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Récupération et Utilisation du Master&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Mon CV</title><link>https://yagoh-cs.me/cv/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/cv/</guid><description>&lt;div style="text-align: center;"&gt;
-&lt;img src="https://yagoh-cs.me/charles-salaun-cv.jpg.png" alt="Mon CV - Charles SALAUN" style="max-width: 100%; height: auto; border-radius: var(--radius);"&gt;
-&lt;/div&gt;</description></item><item><title>Projet 1</title><link>https://yagoh-cs.me/posts/premier-projet/</link><pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate><guid>https://yagoh-cs.me/posts/premier-projet/</guid><description>&lt;h2 id="déploiement-dune-infrastructure-web-sécurisée-et-automatisée-à-domicile"&gt;Déploiement d&amp;rsquo;une Infrastructure Web Sécurisée et Automatisée à Domicile&lt;/h2&gt;
-&lt;h3 id="le-besoin"&gt;Le Besoin&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Récupération et Utilisation du Master&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mon CV</title>
+      <link>https://yagoh-cs.me/cv/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/cv/</guid>
+      <description>&lt;div style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://yagoh-cs.me/charles-salaun-cv.jpg.png&#34; alt=&#34;Mon CV - Charles SALAUN&#34; style=&#34;max-width: 100%; height: auto; border-radius: var(--radius);&#34;&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Projet 1</title>
+      <link>https://yagoh-cs.me/posts/premier-projet/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://yagoh-cs.me/posts/premier-projet/</guid>
+      <description>&lt;h2 id=&#34;déploiement-dune-infrastructure-web-sécurisée-et-automatisée-à-domicile&#34;&gt;Déploiement d&amp;rsquo;une Infrastructure Web Sécurisée et Automatisée à Domicile&lt;/h2&gt;
+&lt;h3 id=&#34;le-besoin&#34;&gt;Le Besoin&lt;/h3&gt;
 &lt;p&gt;Dans le cadre de mon BTS SIO, j&amp;rsquo;ai souhaité réaliser un portfolio souverain, hébergé chez moi, totalement maîtrisé et sécurisé. Mon objectif était de rendre ce site accessible partout dans le monde, tout en évitant les solutions d&amp;rsquo;hébergement payantes ou dépendantes de fournisseurs tiers.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="architecture-réseau"&gt;Architecture Réseau&lt;/h3&gt;
-&lt;p&gt;Pour répondre à ce besoin, j&amp;rsquo;ai conçu une infrastructure typique de l&amp;rsquo;administration système et réseaux :&lt;/p&gt;</description></item></channel></rss>
+&lt;h3 id=&#34;architecture-réseau&#34;&gt;Architecture Réseau&lt;/h3&gt;
+&lt;p&gt;Pour répondre à ce besoin, j&amp;rsquo;ai conçu une infrastructure typique de l&amp;rsquo;administration système et réseaux :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

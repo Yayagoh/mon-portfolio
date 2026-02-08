@@ -67,12 +67,56 @@ En alternance chez **VINCI Construction**, j'assure le support de proximité : r
 
 [[menu.main]]
   identifier = "home"
-  name = "Home"
+  name = "Accueil"
   url = "/"
   weight = 1
 
 [[menu.main]]
-  identifier = "categories"
-  name = "Catégories"
-  url = "/categories/"
-  weight = 10
+  identifier = "profil"
+  name = "Profil"
+  url = "/#a-propos"
+  weight = 2
+
+[[menu.main]]
+  identifier = "competences"
+  name = "Compétences"
+  url = "/#competences"
+  weight = 3
+
+[[menu.main]]
+  identifier = "documentations"
+  name = "Documentations"
+  url = "/#documentations"
+  weight = 4
+
+[[menu.main]]
+  identifier = "entreprise"
+  name = "Entreprise"
+  url = "/missions/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "epreuves"
+  name = "Épreuves"
+  url = "#"
+  weight = 6
+
+[[menu.main]]
+  identifier = "e5"
+  name = "Épreuve E5"
+  url = "/epreuve-e5/"
+  weight = 1
+  parent = "epreuves"
+
+[[menu.main]]
+  identifier = "e6"
+  name = "Épreuve E6"
+  url = "/epreuve-e6/"
+  weight = 2
+  parent = "epreuves"
+
+[[menu.main]]
+  identifier = "veille"
+  name = "Veille"
+  url = "/veille/"
+  weight = 7
