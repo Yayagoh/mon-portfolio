@@ -1,0 +1,109 @@
+/* Applique le style de la page d'accueil à tout le site */
+
+/* Fond global */
+body {
+  background: var(--theme);
+}
+
+/* Zone principale - même conteneur que la home */
+.main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* En-têtes de page */
+.page-header h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.page-header .post-description {
+  color: var(--secondary);
+  margin-top: 0.5rem;
+}
+
+/* Articles en liste (posts, missions, etc.) */
+.post-entry {
+  background: color-mix(in srgb, var(--theme) 70%, var(--entry));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--primary) 25%, var(--border));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.post-entry .entry-header h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.post-entry .entry-content {
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+
+/* Pages simples (single) */
+.post-single {
+  background: var(--entry);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid var(--border);
+}
+
+.post-single .post-header .post-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.post-single .post-content {
+  line-height: 1.65;
+}
+
+/* Page catégories - termes */
+.terms-tags {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.terms-tags li a {
+  display: block;
+  padding: 1rem 1.25rem;
+  background: color-mix(in srgb, var(--theme) 70%, var(--entry));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-weight: 500;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.terms-tags li a:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--primary) 30%, var(--border));
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer du site */
+.footer {
+  padding: 1.5rem 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .main {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .post-single {
+    padding: 1.5rem;
+  }
+}
