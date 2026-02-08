@@ -143,7 +143,6 @@
       {{- $categoryClass = "infrastructure" -}}
       {{- $icon = "🏢" -}}
     {{- end -}}
-    {{- $dateFormatted := time .date | time.Format "2 janvier 2006" -}}
     <article class="veille-card">
       <div class="veille-card-header">
         <div class="veille-card-icon {{ $categoryClass }}">
@@ -152,13 +151,6 @@
         <div style="flex: 1;">
           <h3 class="veille-card-title">{{ .title }}</h3>
           <div class="veille-card-meta">
-            <span class="veille-card-meta-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-              </svg>
-              {{ $dateFormatted }}
-            </span>
             <span class="veille-card-meta-item">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M4 19.5A2.5 2.5 0 0 0 6.5 17H20"></path>
