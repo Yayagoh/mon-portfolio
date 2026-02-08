@@ -96,27 +96,19 @@ En alternance chez **VINCI Construction**, j'assure le support de proximité : r
   weight = 5
 
 [[menu.main]]
-  identifier = "epreuves"
-  name = "Épreuves"
-  url = "#"
-  weight = 6
-
-[[menu.main]]
   identifier = "e5"
   name = "Épreuve E5"
   url = "/epreuve-e5/"
-  weight = 1
-  parent = "epreuves"
+  weight = 6
 
 [[menu.main]]
   identifier = "e6"
   name = "Épreuve E6"
   url = "/epreuve-e6/"
-  weight = 2
-  parent = "epreuves"
+  weight = 7
 
 [[menu.main]]
   identifier = "veille"
   name = "Veille"
   url = "/veille/"
-  weight = 7
+  weight = 8

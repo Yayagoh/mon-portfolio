@@ -83,27 +83,6 @@
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
-            {{- if .HasChildren }}
-            {{- /* Épreuves : dropdown au survol */ -}}
-            <li class="nav-dropdown">
-                <span class="nav-dropdown-trigger" title="{{ .Title | default .Name }}">
-                    {{- .Pre }}
-                    {{- .Name -}}
-                    {{ .Post -}}
-                </span>
-                <ul class="nav-dropdown-menu">
-                    {{- range .Children }}
-                    <li>
-                        <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
-                            {{- .Pre }}
-                            {{- .Name -}}
-                            {{ .Post -}}
-                        </a>
-                    </li>
-                    {{- end }}
-                </ul>
-            </li>
-            {{- else }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s" .URL) ) | absLangURL }}
             {{- $page_url := $currentPage.Permalink | absLangURL }}
             {{- $anchor_url := replaceRE "#.*" "" $page_url }}
@@ -126,7 +105,6 @@
                     {{- end }}
                 </a>
             </li>
-            {{- end }}
             {{- end }}
         </ul>
     </nav>
