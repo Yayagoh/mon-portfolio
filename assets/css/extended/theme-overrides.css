@@ -1,24 +1,28 @@
 :root {
-  --theme: #f3f4f6;
+  /* Thème clair légèrement gris, plus sobre */
+  --theme: #edeff3;
   --entry: #ffffff;
   --border: #e2e2e2;
   --code-bg: #f5f5f7;
 }
 
-/* Mode sombre - style Adam Hakkam */
+/* Mode sombre - fond bleu/gris, moins noir et plus doux */
 :root[data-theme="dark"] {
-  --theme: #0a0a0f;
-  --entry: #13131a;
+  --theme: #020617;    /* bleu nuit très foncé, mais pas noir pur */
+  --entry: #0b1120;    /* cartes légèrement plus claires que le fond */
   --primary: #f4f4f5;
   --secondary: #a1a1aa;
-  --border: #27272a;
+  --border: #1f2937;
   --content: #e4e4e7;
-  --code-bg: #09090b;
+  --code-bg: #020617;
 }
 
-/* Taille de texte un peu plus fluide selon la taille d’écran */
+/* Taille de texte un peu plus fluide selon la taille d’écran
+   + fond plus nuancé (dégradé) pour éviter un aplat noir. */
 body {
   font-size: clamp(0.95rem, 0.25vw + 0.9rem, 1.05rem);
+  background: radial-gradient(circle at top, #111827 0, #020617 40%, #020617 100%);
+  color: var(--content);
 }
 
 /* Défilement fluide pour les ancres (Profil, Compétences, Documentations, etc.) */
@@ -31,7 +35,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: var(--theme);
+  background: color-mix(in srgb, var(--theme) 85%, transparent);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(10px);
 }
