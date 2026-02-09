@@ -16,9 +16,29 @@
   --code-bg: #09090b;
 }
 
-/* Défilement fluide pour les ancres (Profil, Compétences, Documentations) */
+/* Taille de texte un peu plus fluide selon la taille d’écran */
+body {
+  font-size: clamp(0.95rem, 0.25vw + 0.9rem, 1.05rem);
+}
+
+/* Défilement fluide pour les ancres (Profil, Compétences, Documentations, etc.) */
 html {
   scroll-behavior: smooth;
 }
 
+/* Header fixé en haut de la page */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--theme);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
 
+/* Centrer un peu le contenu du menu sur les grands écrans */
+.header .nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-inline: 1.5rem;
+}

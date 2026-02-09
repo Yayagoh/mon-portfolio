@@ -5,9 +5,11 @@ body {
   background: var(--theme);
 }
 
-/* Zone principale - même conteneur que la home */
+/* Zone principale - même conteneur que la home
+   → un peu plus large pour limiter les gros espaces sur les côtés,
+     tout en restant confortable pour la lecture. */
 .main {
-  max-width: 720px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
 }
