@@ -83,14 +83,9 @@
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
-            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s" .URL) ) | absLangURL }}
-            {{- $page_url := $currentPage.Permalink | absLangURL }}
-            {{- $anchor_url := replaceRE "#.*" "" $page_url }}
-            {{- $menu_anchor := findRE "#.*" .URL }}
-            {{- $is_active := or (eq $menu_item_url $page_url) (and (hasPrefix .URL "/#") (eq $anchor_url (replaceRE "#.*" "" $page_url))) }}
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
-                    <span {{- if $is_active }} class="active" {{- end }}>
+                    <span>
                         {{- .Pre }}
                         {{- .Name -}}
                         {{ .Post -}}
