@@ -61,6 +61,15 @@
 /* Sections */
 .home-section {
   margin-top: 3.5rem;
+  padding: 2.25rem 2rem;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--theme) 82%, var(--entry));
+  border: 1px solid color-mix(in srgb, var(--border) 85%, transparent);
+}
+
+/* Alterner légèrement le fond des sections pour éviter l’uniformité */
+.home-section:nth-of-type(even) {
+  background: color-mix(in srgb, var(--entry) 78%, var(--theme));
 }
 
 .home-section__title {
@@ -271,6 +280,10 @@
 @media (max-width: 600px) {
   .home-adam {
     padding: 1.5rem 1rem 3rem;
+  }
+
+  .home-section {
+    padding: 1.75rem 1.25rem;
   }
 
   .home-about {
