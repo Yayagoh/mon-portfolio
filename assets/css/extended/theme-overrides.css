@@ -92,10 +92,23 @@ body::before {
 .entry-content,
 article,
 .post-body {
-  max-width: none !important;
+  max-width: 100% !important;
   width: 100% !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* Élargir aussi les paragraphes, listes et autres contenus internes */
+p, li, ul, ol, dl, blockquote, pre, table {
+  max-width: 100% !important;
+}
+
+/* Élargir les conteneurs de texte par défaut */
+main, [role="main"], .main-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
 /* S'assurer que les images et médias restent responsives */
@@ -107,6 +120,6 @@ img, iframe, video {
 /* Si tu veux garder une lecture confortable sur très grands écrans,
    on peut limiter la largeur de paragraphe via une classe `.readable` */
 .readable {
-  max-width: 85ch;
+  max-width: 95ch;
   margin-inline: auto;
 }
