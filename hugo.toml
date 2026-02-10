@@ -15,7 +15,7 @@ theme = "PaperMod"
   about = """
 Salut, moi c'est **Charles SALAUN** 👋
 
-Je suis étudiant en **BTS SIO option SISR**. Passionné par les infrastructures, le support utilisateur et l'administration système.
+Je suis étudiant en **BTS SIO option SISR**. Passionné par l'informatique, l'infrastructures et le système.
 
 En alternance chez **VINCI Construction**, j'assure le support de proximité : résolution d'incidents, déploiement de postes, gestion du parc informatique et de la flotte mobile.
 """
@@ -110,5 +110,5 @@ En alternance chez **VINCI Construction**, j'assure le support de proximité : r
 [[menu.main]]
   identifier = "veille"
   name = "Veille"
-  url = "/veille/"
+  url = "/veille/green-it/"
   weight = 8
