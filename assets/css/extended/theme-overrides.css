@@ -215,3 +215,56 @@ img, iframe, video {
     max-width: 80ch;
   }
 }
+
+/* === Espacement pour les pages d'articles / veille === */
+.post, .page, .entry, .post-body, .post-content, .entry-content {
+  padding-top: 2.25rem !important;
+  padding-bottom: 2.25rem !important;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.post-content, .entry-content {
+  line-height: 1.75 !important;
+  font-size: clamp(1rem, 0.5vw + 0.95rem, 1.12rem);
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.post-content img,
+.post-content figure {
+  margin: 1.25rem 0;
+  display: block;
+}
+
+/* Conserver une largeur de lecture confortable sur très grands écrans */
+@media (min-width: 1400px) {
+  .post-content, .entry-content {
+    max-width: 85ch;
+    margin-inline: auto;
+  }
+}
+
+/* Ajustements mobiles : réduire les paddings mais garder lisibilité */
+@media (max-width: 768px) {
+  .post, .page, .entry, .post-body, .post-content, .entry-content {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .post-content {
+    line-height: 1.6 !important;
+  }
+}
