@@ -50,21 +50,23 @@
 .missions-grid {
   margin-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* Prefer fewer, wider columns on larger screens */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.25rem;
 }
 
 /* Cartes : fond sombre légèrement plus clair que le site */
 .mission-card {
   display: block;
-  padding: 1.25rem;
+  padding: 1.5rem; /* slightly more breathing room */
   border-radius: 16px;
   border: 1px solid var(--border);
   background: color-mix(in srgb, var(--theme) 70%, var(--entry));
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
   text-decoration: none;
   color: inherit;
+  min-height: 140px; /* keep cards visually balanced */
 }
 
 .mission-card:hover {
