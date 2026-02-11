@@ -268,3 +268,33 @@ img, iframe, video {
     line-height: 1.6 !important;
   }
 }
+
+/* Grand format wrapper for the detailed veille articles */
+.grand-format {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.grand-format h1,
+.grand-format h2,
+.grand-format h3 {
+  line-height: 1.15;
+  margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.grand-format img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+.grand-format .lead {
+  font-size: 1.05rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
