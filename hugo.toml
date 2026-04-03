@@ -119,7 +119,4 @@ En alternance chez **VINCI Construction**, j'assure le support de proximité : r
   url = "/veille/green-it/"
   weight = 8
 
-[author]
-  name = "Charles SALAUN"
-
 # Le paramètre author est déjà défini ci-dessus dans [params]. Si nécessaire, modifiez-le là-bas.
