@@ -112,11 +112,8 @@ En alternance chez **VINCI Construction**, j'assure le support de proximité : r
   name = "Veille"
   url = "/veille/green-it/"
   weight = 8
-  
-  # Cherche s'il y a déjà une ligne 'author' et remplace-la par ce bloc :
+
 [author]
   name = "Charles SALAUN"
 
-# Ajoute aussi ceci dans la section [params] si ce n'est pas déjà fait :
-[params]
-  author = "Charles SALAUN"
+# Le paramètre author est déjà défini ci-dessus dans [params]. Si nécessaire, modifiez-le là-bas.
