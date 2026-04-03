@@ -67,7 +67,7 @@ Cette épreuve met en avant les compétences majeure du bloc SISR :
 
 Voici mon tableau de synthèse de l'épreuve E5, qui récapitule les domaines techniques, les compétences mobilisées et mes réalisations :
 
-{{< embed-pdf src="/pdf/tableau-de-synthese-e5.pdf" height="800" >}}
+{{< embed-pdf url="/pdf/tableau-e5.pdf" >}}
 
 ---
 
