@@ -18,7 +18,7 @@ Utilisation:
 
 {{- if not $src -}}
   <div class="pdf-embed-error" style="padding: 20px; background: #fee; border: 1px solid #c33; color: #c33; border-radius: 4px;">
-    <strong>Erreur:</strong> Aucun PDF spécifié. Utilisez: {{&lt; embed-pdf "path/to/file.pdf" &gt;}}
+    <strong>Erreur:</strong> Aucun PDF spécifié. Utilisez: {{ "{{< embed-pdf \"path/to/file.pdf\" >}}" }}
   </div>
 {{- else -}}
   <div class="pdf-embed-container" style="
