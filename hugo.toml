@@ -12,6 +12,12 @@ theme = "PaperMod"
   ShowReadingTime = true
   avatarInitials = "CS"
 
+  author = "Charles SALAUN"
+
+  [params.author]
+    name = "Charles SALAUN"
+    email = "charlys.salaun@gmail.com"
+
   about = """
 Salut, moi c'est **Charles SALAUN** 👋
 
