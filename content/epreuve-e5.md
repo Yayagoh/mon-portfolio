@@ -1,116 +1,71 @@
 ---
-title: "Épreuve E5 — Analyse de solutions informatiques"
+title: "Épreuve E5 — Tableau de synthèse"
 date: 2025-01-01
 draft: false
+description: "Présentation de l'épreuve E5 du BTS SIO, fiche de synthèse, compétences et projets associés."
+hideMeta: true
 ---
 
-# Épreuve E5 — Analyse de solutions informatiques
-
-## Présentation de l'Épreuve E5
-
-L'épreuve E5 **Analyse et choix d'une solution informatique** est une épreuve majeure de la certification SISR. Elle évalue la capacité du candidat à analyser une situation informatique complexe, à décider d'une solution adaptée et à justifier ses choix techniques et fonctionnels.
-
-Cette épreuve est particulièrement axée sur :
-
-- **L'analyse d'infrastructure** : évaluation de l'architecture actuelle et identification des problématiques
-- **L'administration système et les services** : gestion des serveurs, des utilisateurs, des permissions et de la sécurité
-- **La supervision et le monitoring** : mise en place d'outils de surveillance, d'alertes et de rapports de performance
-- **La sécurité informatique** : évaluation des risques et propositions de solutions de protections
-- **La rentabilité et l'optimisation** : analyse coût-bénéfice et recommandations pour l'amélioration de l'infrastructure
-
-**Informations clés :**
-
-| Élément | Valeur |
-|---------|--------|
-| **Coefficient** | 4 |
-| **Durée** | 5 heures |
-| **Format** | Étude de cas - Analyse écrite + présentation orale |
-| **Compétences visées** | Analyse, recommandation, justification technique |
-
----
-
-## Compétences SISR valorisées
-
-Cette épreuve met en avant les compétences majeure du bloc SISR :
-
-### 🔧 Administration Système
-
-- Configuration et gestion des serveurs Windows/Linux
-- Gestion des répertoires actifs (Active Directory)
-- Gestion des droits d'accès et des permissions
-- Déploiement de solutions systèmes
-
-### 📊 Supervision et Monitoring
-
-- Installation et configuration d'outils de monitoring (Grafana, Prometheus, Zabbix, etc.)
-- Mise en place d'alertes et de notifications
-- Analyse des métriques de performance et de disponibilité
-- Rapports et tableaux de bord
-
-### 🔐 Sécurité de l'infrastructure
-
-- Audit de sécurité et analyse des risques
-- Mise en place de pare-feu et de politiques de sécurité
-- Chiffrement et gestion des certificats
-- Recommandations d'amélioration
-
-### 💡 Analyse et recommandations
-
-- Évaluation des solutions existantes (On-Premises, Cloud, Hybride)
-- Comparaison d'options techniques et fonctionnelles
-- Justification des choix par rapport aux contraintes (budget, performance, scalabilité)
-- Propositions d'améliorations d'infrastructure
-
----
-
-## Tableau de synthèse E5
-
-Voici mon tableau de synthèse de l'épreuve E5, qui récapitule les domaines techniques, les compétences mobilisées et mes réalisations :
-
-{{< embed-pdf url="/pdf/tableau-e5.pdf" >}}
-
----
-
-## Actions rapides
-
-<div style="display: flex; gap: 12px; margin-top: 2rem; flex-wrap: wrap; justify-content: center;">
-  <a href="/pdf/tableau-de-synthese-e5.pdf" download class="btn" style="
-    display: inline-block;
-    padding: 12px 24px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-  " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(102, 126, 234, 0.6)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(102, 126, 234, 0.4)';">
-    ⬇️ Télécharger la fiche E5
-  </a>
-  
-  <button class="btn" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'; this.textContent = this.textContent === '🔍 Agrandir l\'aperçu' ? '🔍 Réduire l\'aperçu' : '🔍 Agrandir l\'aperçu';" style="
-    padding: 12px 24px;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
-  " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(245, 87, 108, 0.6)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(245, 87, 108, 0.4)';">
-    🔍 Agrandir l'aperçu
-  </button>
-  
-  <div style="display: none; width: 100%; margin-top: 1.5rem; padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;">
-    <p style="color: #666; margin: 0 0 1rem 0;"><strong>Mode plein écran activé</strong> — Le PDF ci-dessus est maintenant en vue étendue. Cliquez à nouveau sur le bouton pour le réduire.</p>
+<div style="margin: 2rem 0 1.5rem; padding: 3rem 2rem; border-radius: 28px; background: radial-gradient(circle at top left, rgba(99, 102, 241, 0.85), transparent 32%), linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; box-shadow: 0 20px 60px rgba(15, 23, 42, 0.24);">
+  <div style="max-width: 960px; margin: 0 auto;">
+    <p style="text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.82rem; color: #93c5fd; margin-bottom: 1rem;">
+      Épreuve E5
+    </p>
+    <h1 style="font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.02; margin: 0 0 1rem;">
+      Tableau de synthèse<br>et projets associés
+    </h1>
+    <p style="max-width: 760px; color: rgba(255,255,255,0.86); line-height: 1.75; margin-bottom: 1.8rem; font-size: 1.05rem;">
+      Valorisez votre parcours BTS SIO avec une synthèse claire, les compétences mobilisées et les réalisations les plus pertinentes à présenter en entretien.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.85rem;">
+      <a href="/pdf/tableau-de-synthese-e5.pdf" style="display:inline-flex; align-items:center; justify-content:center; min-width: 190px; padding: 0.95rem 1.6rem; border-radius: 999px; background: white; color: #0f172a; font-weight: 700; text-decoration:none;">
+        Télécharger la fiche
+      </a>
+      <a href="#projets" style="display:inline-flex; align-items:center; justify-content:center; min-width: 190px; padding: 0.95rem 1.6rem; border-radius: 999px; background: rgba(255,255,255,0.12); color: white; border: 1px solid rgba(255,255,255,0.18); text-decoration:none; font-weight:700;">
+        Voir les projets
+      </a>
+    </div>
   </div>
 </div>
 
+## Présentation de l’épreuve E5
+
+L’épreuve E5 du BTS SIO a pour objectif de présenter, structurer et valoriser l’expérience professionnelle acquise pendant la formation. Elle repose sur un tableau de synthèse permettant de mettre en avant des situations concrètes, les compétences mobilisées, les outils utilisés et les résultats obtenus.
+
+Cette épreuve sert à montrer la capacité à analyser un besoin, mettre en œuvre une solution technique, justifier ses choix et communiquer clairement sur les travaux réalisés.
+
+## Ce que met en avant cette épreuve
+
+- Des situations professionnelles ou techniques significatives
+- Les compétences en systèmes, réseaux, sécurité et support
+- La démarche suivie pour répondre à un besoin ou résoudre un problème
+- Les preuves et résultats permettant d’appuyer la présentation à l’oral
+
+## Fiche de synthèse E5
+
+- [Télécharger la fiche E5](/pdf/tableau-de-synthese-e5.pdf)
+- <a href="/pdf/tableau-de-synthese-e5.pdf" target="_blank" rel="noopener noreferrer">Ouvrir la fiche dans un nouvel onglet</a>
+
+{{< embed-pdf url="/pdf/tableau-e5.pdf" >}}
+
+## Projets associés à l’épreuve E5 {#projets}
+
+### En cours de formation
+
+- [Configuration de postes](/missions/configuration-de-postes/)
+- [Configuration de téléphones](/missions/configuration-de-telephones/)
+- [Résolution de ticket](/missions/resolution-de-ticket/)
+
+### Compétences mises en œuvre
+
+- Analyse d’infrastructure et cadrage du besoin
+- Support utilisateur et dépannage
+- Déploiement et configuration de postes
+- Coordination des ressources matérielles et logicielles
+
 ---
 
-## Ressources connexes
+## Navigation rapide
 
-- [📁 Voir mes missions professionnelles](/missions/)
-- [📁 Consulter ma veille technologique](/veille/)
-- [📄 Voir mon CV complet](/cv/)
+- [Retour aux missions](/missions/)
+- [Voir l’épreuve E6](/epreuve-e6/)
