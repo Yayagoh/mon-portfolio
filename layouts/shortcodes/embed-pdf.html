@@ -1,12 +1,23 @@
-<div class="embed-pdf-container" style="margin-top: 20px; margin-bottom: 20px;">
-    <object 
-        data="{{ .Get "url" }}" 
-        type="application/pdf" 
-        width="100%" 
-        height="800px"
-        style="border: 1px solid #ddd; border-radius: 8px;">
-        <p>Il semble que votre navigateur ne puisse pas afficher le PDF. 
-           <a href="{{ .Get "url" }}">Cliquez ici pour le télécharger et le consulter.</a>
-        </p>
+{{ $title := .Get "title" | default "Fiche de synthèse" }}
+<div class="pdf-embed-card">
+  <div class="pdf-embed-card__header">
+    <div>
+      <p class="pdf-embed-card__label">Fiche PDF</p>
+      <h2>{{ $title }}</h2>
+    </div>
+    <div class="pdf-embed-card__actions">
+      <a class="pdf-embed-card__button pdf-embed-card__button--primary" href="{{ .Get "url" }}" download> Télécharger la fiche </a>
+      <a class="pdf-embed-card__button pdf-embed-card__button--secondary" href="{{ .Get "url" }}" target="_blank" rel="noopener noreferrer"> Ouvrir dans un nouvel onglet </a>
+    </div>
+  </div>
+  <div class="pdf-embed-card__body">
+    <object
+      data="{{ .Get "url" }}"
+      type="application/pdf"
+      width="100%"
+      height="820"
+      class="pdf-embed-card__viewer">
+      <p>Le PDF ne peut pas être affiché dans votre navigateur. <a href="{{ .Get "url" }}">Téléchargez-le ici.</a></p>
     </object>
+  </div>
 </div>

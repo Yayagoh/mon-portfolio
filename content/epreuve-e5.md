@@ -43,10 +43,7 @@ Cette épreuve sert à montrer la capacité à analyser un besoin, mettre en œu
 
 ## Fiche de synthèse E5
 
-- [Télécharger la fiche E5](/pdf/tableau-de-synthese-e5.pdf)
-- <a href="/pdf/tableau-de-synthese-e5.pdf" target="_blank" rel="noopener noreferrer">Ouvrir la fiche dans un nouvel onglet</a>
-
-{{< embed-pdf url="/pdf/tableau-e5.pdf" >}}
+{{< embed-pdf url="/pdf/tableau-e5.pdf" title="Fiche de synthèse E5" >}}
 
 ## Projets associés à l’épreuve E5 {#projets}
 

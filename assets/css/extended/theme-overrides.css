@@ -217,6 +217,107 @@ img, iframe, video {
 }
 
 /* === Espacement pour les pages d'articles / veille === */
+
+.pdf-embed-card {
+  margin: 2rem auto;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.16);
+  background: var(--entry);
+}
+
+.pdf-embed-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.3rem 1.5rem;
+  background: color-mix(in srgb, var(--theme) 88%, #000 10%);
+  border-bottom: 1px solid var(--border);
+}
+
+.pdf-embed-card__label {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.pdf-embed-card__header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: var(--content);
+}
+
+.pdf-embed-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.pdf-embed-card__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.25rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.pdf-embed-card__button:hover {
+  transform: translateY(-1px);
+}
+
+.pdf-embed-card__button--primary {
+  background: linear-gradient(135deg, #eef2ff 0%, #c7d2fe 100%);
+  color: #0f172a;
+  border: 1px solid transparent;
+}
+
+.pdf-embed-card__button--secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--content);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.pdf-embed-card__body {
+  background: #08101d;
+}
+
+.pdf-embed-card__viewer {
+  width: 100%;
+  min-height: 780px;
+  border: none;
+  background: #08101d;
+}
+
+.pdf-embed-card__body p {
+  color: var(--content);
+  padding: 1.5rem;
+}
+
+@media (max-width: 840px) {
+  .pdf-embed-card__header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pdf-embed-card__actions {
+    justify-content: stretch;
+  }
+
+  .pdf-embed-card__button {
+    width: 100%;
+  }
+}
+
 .post, .page, .entry, .post-body, .post-content, .entry-content {
   padding-top: 2.25rem !important;
   padding-bottom: 2.25rem !important;
