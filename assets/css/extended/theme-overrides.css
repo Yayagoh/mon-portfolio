@@ -1,34 +1,50 @@
+/* ============================================================
+   PALETTE & VARIABLES — inspiré de Linear (linear.app)
+   ============================================================ */
+
 :root {
-  /* Thème clair légèrement gris, plus sobre */
-  --theme: #edeff3;
+  /* Mode clair (rarement utilisé, mais on garde) */
+  --theme: #f5f5f7;
   --entry: #ffffff;
-  --border: #e2e2e2;
+  --border: #e2e4e8;
   --code-bg: #f5f5f7;
+
+  /* Largeurs de contenu : une seule source de vérité */
+  --content-max-wide:  1080px;   /* pages listing, accueil */
+  --content-max-prose: 75ch;     /* articles longs (lecture) */
 }
 
-/* Mode sombre - fond bleu/gris, moins noir et plus doux */
 :root[data-theme="dark"] {
-  --theme: #020617;    /* bleu nuit très foncé, mais pas noir pur */
-  --entry: #0b1120;    /* cartes légèrement plus claires que le fond */
-  --primary: #f4f4f5;
-  --secondary: #a1a1aa;
-  --border: #1f2937;
-  --content: #e4e4e7;
-  --code-bg: #020617;
+  --theme:         #08090A;                       /* fond Linear */
+  --entry:         #101113;                       /* cartes, légère élévation */
+  --primary:       #F7F8F8;                       /* blanc cassé Linear */
+  --secondary:     #8A8F98;                       /* gris secondaire Linear */
+  --accent:        #5E6AD2;                       /* indigo signature Linear */
+  --accent-bright: #7B89F4;                       /* hover / liens (contraste AA) */
+  --border:        rgba(255, 255, 255, 0.08);     /* bordure subtile */
+  --border-hover:  rgba(255, 255, 255, 0.14);     /* bordure au hover */
+  --content:       #E6E8EC;                       /* texte courant */
+  --code-bg:       #0E0F11;
 }
 
-/* Taille de texte un peu plus fluide selon la taille d'écran */
+/* ============================================================
+   TYPOGRAPHIE — tracking serré façon Linear sur les titres
+   ============================================================ */
+
 body {
-  font-size: clamp(1.02rem, 0.4vw + 0.95rem, 1.25rem);
+  font-size: clamp(1.02rem, 0.4vw + 0.95rem, 1.18rem);
   color: var(--content);
 }
 
-/* Défilement fluide pour les ancres (Profil, Compétences, Documentations, etc.) */
-html {
-  scroll-behavior: smooth;
-}
+h1, h2 { letter-spacing: -0.025em; }
+h3     { letter-spacing: -0.015em; }
 
-/* Header fixé en haut de la page */
+html { scroll-behavior: smooth; }
+
+/* ============================================================
+   HEADER fixe
+   ============================================================ */
+
 .header {
   position: sticky;
   top: 0;
@@ -38,192 +54,94 @@ html {
   backdrop-filter: blur(10px);
 }
 
-/* Centrer un peu le contenu du menu sur les grands écrans */
 .header .nav {
-  max-width: 1024px;
+  max-width: var(--content-max-wide);
   margin: 0 auto;
   padding-inline: 1.5rem;
 }
 
-/* Fond principal des pages (bloc list) : plus sobre, pas noir plein */
-.list {
-  background: radial-gradient(circle at top, #e5e7eb 0, #e5e7eb 40%, #dde1ea 100%);
-}
+/* ============================================================
+   FOND GLOBAL — deux dégradés radiaux subtils, statiques
+   (l'animation est réservée au hero, plus bas)
+   ============================================================ */
 
-[data-theme="dark"] .list {
-  background: radial-gradient(circle at top, #111827 0, #020617 50%, #020617 100%);
-}
-
-/* === Fond réseau/maille animée (style particules connectées) === */
-body {
-  background: radial-gradient(circle at top, #001a1a 0%, #000507 50%, #000000 100%);
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
+[data-theme="dark"] body {
+  background-color: #08090A;
   background-image:
-    /* Lignes de connexion (réseau) */
-    linear-gradient(45deg, transparent 48%, rgba(0, 200, 255, 0.1) 49%, rgba(0, 200, 255, 0.1) 51%, transparent 52%),
-    linear-gradient(-45deg, transparent 48%, rgba(200, 100, 255, 0.08) 49%, rgba(200, 100, 255, 0.08) 51%, transparent 52%),
-    linear-gradient(90deg, transparent 48%, rgba(0, 150, 200, 0.05) 49%, rgba(0, 150, 200, 0.05) 51%, transparent 52%);
-  background-size: 300px 300px, 350px 350px, 400px 400px;
-  background-position: 0 0, 50px 50px, 100px 100px;
-  animation: networkShift 60s linear infinite;
-  pointer-events: none;
-}
-
-@keyframes networkShift {
-  0% { background-position: 0 0, 50px 50px, 100px 100px; }
-  100% { background-position: 300px 300px, 350px 350px, 400px 400px; }
-}
-
-/* Particules/points lumineux du réseau */
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background-image:
-    /* Cyan */
-    radial-gradient(circle 8px at 15% 20%, rgba(0, 255, 255, 0.8), rgba(0, 255, 255, 0.3) 40%, transparent 70%),
-    radial-gradient(circle 6px at 85% 40%, rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.2) 40%, transparent 70%),
-    radial-gradient(circle 7px at 50% 80%, rgba(0, 200, 255, 0.75), rgba(0, 200, 255, 0.25) 40%, transparent 70%),
-    radial-gradient(circle 5px at 30% 60%, rgba(0, 255, 255, 0.6), rgba(0, 255, 255, 0.15) 40%, transparent 70%),
-    /* Rouge */
-    radial-gradient(circle 7px at 70% 15%, rgba(255, 100, 150, 0.7), rgba(255, 100, 150, 0.25) 40%, transparent 70%),
-    radial-gradient(circle 6px at 25% 70%, rgba(255, 80, 120, 0.65), rgba(255, 80, 120, 0.2) 40%, transparent 70%),
-    radial-gradient(circle 5px at 80% 70%, rgba(255, 100, 140, 0.6), rgba(255, 100, 140, 0.15) 40%, transparent 70%);
-  background-size: 100% 100%;
+    radial-gradient(ellipse 800px 600px at 15% 10%,
+                    rgba(94, 106, 210, 0.18), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 85% 95%,
+                    rgba(245, 124, 175, 0.08), transparent 60%);
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  animation: particleFloat 20s ease-in-out infinite;
-  pointer-events: none;
-  mix-blend-mode: screen;
 }
 
-@keyframes particleFloat {
-  0%, 100% { transform: translateY(0) translateX(0); }
-  25% { transform: translateY(-20px) translateX(15px); }
-  50% { transform: translateY(-40px) translateX(-20px); }
-  75% { transform: translateY(-20px) translateX(25px); }
+[data-theme="dark"] .list { background: transparent; }
+
+/* Liens dans le contenu : on utilise --accent-bright pour passer AA */
+[data-theme="dark"] .post-content a,
+[data-theme="dark"] .entry-content a {
+  color: var(--accent-bright);
 }
 
-/* === Étendre le texte / contenu sur toute la largeur === */
-/* Cible plusieurs classes communes pour override du thème PaperMod */
-.container,
-.main,
-.site-main,
-.page,
-.post,
-.content,
-.wrapper,
-.container-md,
-.site-content,
-.entry-content,
-article,
-.post-body {
-  max-width: 100% !important;
-  width: calc(100% - 6rem) !important;
-  padding-left: 3rem !important;
-  padding-right: 3rem !important;
+/* ============================================================
+   LARGEUR DE CONTENU — un système clair, sans !important
+   ============================================================ */
+
+.main {
+  max-width: var(--content-max-wide);
+  margin-inline: auto;
+  padding: 2rem 1.5rem 4rem;
 }
 
-/* Élargir aussi les paragraphes, listes et autres contenus internes */
-p, li, ul, ol, dl, blockquote, pre, table {
-  max-width: 100% !important;
+/* Articles longs : prose centrée, lecture confortable */
+.post-content,
+.entry-content {
+  max-width: var(--content-max-prose);
+  margin-inline: auto;
+  line-height: 1.75;
+  font-size: clamp(1rem, 0.5vw + 0.95rem, 1.12rem);
 }
 
-/* Élargir les conteneurs de texte par défaut */
-main, [role="main"], .main-content {
-  max-width: 100% !important;
-  width: calc(100% - 6rem) !important;
-  padding-left: 3rem !important;
-  padding-right: 3rem !important;
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content blockquote { margin-block: 1rem; }
+
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
 }
 
-/* S'assurer que les images et médias restent responsives */
-img, iframe, video {
-  max-width: 100%;
-  height: auto;
+.post-content img,
+.post-content figure {
+  margin-block: 1.25rem;
+  display: block;
 }
 
-/* Si tu veux garder une lecture confortable sur très grands écrans,
-   on peut limiter la largeur de paragraphe via une classe `.readable` */
+img, iframe, video { max-width: 100%; height: auto; }
+
 .readable {
-  max-width: 90ch;
+  max-width: var(--content-max-prose);
   margin-inline: auto;
 }
 
-/* === Support mobile : réduire les marges sur petits écrans === */
 @media (max-width: 768px) {
-  .container,
-  .main,
-  .site-main,
-  .page,
-  .post,
-  .content,
-  .wrapper,
-  .container-md,
-  .site-content,
-  .entry-content,
-  article,
-  .post-body {
-    width: calc(100% - 3rem) !important;
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-  }
-
-  main, [role="main"], .main-content {
-    width: calc(100% - 3rem) !important;
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-  }
-  
-  .readable {
-    max-width: 85ch;
-  }
+  .main { padding: 1.5rem 1rem 3rem; }
 }
 
-/* === Support très petits écrans (mobile portrait) === */
-@media (max-width: 480px) {
-  .container,
-  .main,
-  .site-main,
-  .page,
-  .post,
-  .content,
-  .wrapper,
-  .container-md,
-  .site-content,
-  .entry-content,
-  article,
-  .post-body {
-    width: calc(100% - 1.5rem) !important;
-    padding-left: 0.75rem !important;
-    padding-right: 0.75rem !important;
-  }
-
-  main, [role="main"], .main-content {
-    width: calc(100% - 1.5rem) !important;
-    padding-left: 0.75rem !important;
-    padding-right: 0.75rem !important;
-  }
-  
-  .readable {
-    max-width: 80ch;
-  }
-}
-
-/* === Espacement pour les pages d'articles / veille === */
+/* ============================================================
+   CARTE PDF (composant — garde sa structure, palette mise à jour)
+   ============================================================ */
 
 .pdf-embed-card {
   margin: 2rem auto;
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--border);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.40);
   background: var(--entry);
 }
 
@@ -239,7 +157,7 @@ img, iframe, video {
 
 .pdf-embed-card__label {
   margin: 0 0 0.35rem;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--secondary);
@@ -250,6 +168,7 @@ img, iframe, video {
   font-size: 1.5rem;
   line-height: 1.1;
   color: var(--content);
+  letter-spacing: -0.02em;
 }
 
 .pdf-embed-card__actions {
@@ -266,36 +185,32 @@ img, iframe, video {
   padding: 0.85rem 1.25rem;
   border-radius: 999px;
   font-size: 0.95rem;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
 }
 
-.pdf-embed-card__button:hover {
-  transform: translateY(-1px);
-}
+.pdf-embed-card__button:hover { transform: translateY(-1px); }
 
 .pdf-embed-card__button--primary {
-  background: linear-gradient(135deg, #eef2ff 0%, #c7d2fe 100%);
-  color: #0f172a;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-bright) 100%);
+  color: #fff;
   border: 1px solid transparent;
 }
 
 .pdf-embed-card__button--secondary {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
   color: var(--content);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  border: 1px solid var(--border);
 }
 
-.pdf-embed-card__body {
-  background: #08101d;
-}
+.pdf-embed-card__body { background: #08090A; }
 
 .pdf-embed-card__viewer {
   width: 100%;
   min-height: 780px;
   border: none;
-  background: #08101d;
+  background: #08090A;
 }
 
 .pdf-embed-card__body p {
@@ -304,73 +219,15 @@ img, iframe, video {
 }
 
 @media (max-width: 840px) {
-  .pdf-embed-card__header {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .pdf-embed-card__actions {
-    justify-content: stretch;
-  }
-
-  .pdf-embed-card__button {
-    width: 100%;
-  }
+  .pdf-embed-card__header { flex-direction: column; align-items: stretch; }
+  .pdf-embed-card__actions { justify-content: stretch; }
+  .pdf-embed-card__button { width: 100%; }
 }
 
-.post, .page, .entry, .post-body, .post-content, .entry-content {
-  padding-top: 2.25rem !important;
-  padding-bottom: 2.25rem !important;
-  padding-left: 2.5rem !important;
-  padding-right: 2.5rem !important;
-}
+/* ============================================================
+   GRAND FORMAT (articles veille longue)
+   ============================================================ */
 
-.post-content, .entry-content {
-  line-height: 1.75 !important;
-  font-size: clamp(1rem, 0.5vw + 0.95rem, 1.12rem);
-}
-
-.post-content p,
-.post-content ul,
-.post-content ol,
-.post-content blockquote {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.post-content h2,
-.post-content h3,
-.post-content h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-}
-
-.post-content img,
-.post-content figure {
-  margin: 1.25rem 0;
-  display: block;
-}
-
-/* Conserver une largeur de lecture confortable sur très grands écrans */
-@media (min-width: 1400px) {
-  .post-content, .entry-content {
-    max-width: 85ch;
-    margin-inline: auto;
-  }
-}
-
-/* Ajustements mobiles : réduire les paddings mais garder lisibilité */
-@media (max-width: 768px) {
-  .post, .page, .entry, .post-body, .post-content, .entry-content {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-  .post-content {
-    line-height: 1.6 !important;
-  }
-}
-
-/* Grand format wrapper for the detailed veille articles */
 .grand-format {
   max-width: 1100px;
   margin: 0 auto;
@@ -385,6 +242,7 @@ img, iframe, video {
   line-height: 1.15;
   margin-top: 1.25rem;
   margin-bottom: 0.6rem;
+  letter-spacing: -0.02em;
 }
 
 .grand-format img {

@@ -1,24 +1,16 @@
-/* Applique le style de la page d'accueil à tout le site */
+/* Style commun à toutes les pages — aligné sur la palette Linear */
 
-/* Fond global */
-body {
-  background: var(--theme);
-}
+/* ============================================================
+   ZONE PRINCIPALE
+   (la largeur est maintenant pilotée par theme-overrides.css
+   via --content-max-wide ; on garde ici les overrides spécifiques)
+   ============================================================ */
 
-/* Zone principale - même conteneur que la home
-   → un peu plus large pour limiter les gros espaces sur les côtés,
-     tout en restant confortable pour la lecture. */
-.main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
-}
-
-/* En-têtes de page */
+/* En-tête de page (titre + description) */
 .page-header h1 {
   font-size: clamp(1.75rem, 4vw, 2.25rem);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .page-header .post-description {
@@ -26,26 +18,34 @@ body {
   margin-top: 0.5rem;
 }
 
-/* Articles en liste (posts, missions, etc.) */
+/* ============================================================
+   CARTES DE LISTING (posts, missions, etc.) — style Linear
+   ============================================================ */
+
 .post-entry {
-  background: color-mix(in srgb, var(--theme) 70%, var(--entry));
+  background: var(--entry);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 0.9rem;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 220ms ease;
 }
 
 .post-entry:hover {
   transform: translateY(-2px);
-  border-color: color-mix(in srgb, var(--primary) 25%, var(--border));
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-color: var(--border-hover);
+  box-shadow:
+    0 0 0 1px rgba(94, 106, 210, 0.15),
+    0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
 .post-entry .entry-header h2 {
   font-size: 1.15rem;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
 .post-entry .entry-content {
@@ -53,10 +53,13 @@ body {
   font-size: 0.95rem;
 }
 
-/* Pages simples (single) */
+/* ============================================================
+   PAGE ARTICLE (single)
+   ============================================================ */
+
 .post-single {
   background: var(--entry);
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 2rem;
   border: 1px solid var(--border);
 }
@@ -64,14 +67,17 @@ body {
 .post-single .post-header .post-title {
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .post-single .post-content {
-  line-height: 1.65;
+  line-height: 1.75;
 }
 
-/* Page catégories - termes */
+/* ============================================================
+   PAGE CATÉGORIES (grille de termes)
+   ============================================================ */
+
 .terms-tags {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -81,31 +87,34 @@ body {
 .terms-tags li a {
   display: block;
   padding: 1rem 1.25rem;
-  background: color-mix(in srgb, var(--theme) 70%, var(--entry));
+  background: var(--entry);
   border: 1px solid var(--border);
   border-radius: 12px;
   font-weight: 500;
-  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 220ms ease;
 }
 
 .terms-tags li a:hover {
   transform: translateY(-2px);
-  border-color: color-mix(in srgb, var(--primary) 30%, var(--border));
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--border-hover);
+  box-shadow:
+    0 0 0 1px rgba(94, 106, 210, 0.15),
+    0 8px 24px rgba(0, 0, 0, 0.30);
 }
 
-/* Footer du site */
-.footer {
-  padding: 1.5rem 1.5rem;
-}
+/* ============================================================
+   FOOTER
+   ============================================================ */
 
-/* Responsive */
+.footer { padding: 1.5rem; }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
 @media (max-width: 600px) {
-  .main {
-    padding: 1.5rem 1rem 3rem;
-  }
-
-  .post-single {
-    padding: 1.5rem;
-  }
+  .post-single { padding: 1.5rem; }
 }
